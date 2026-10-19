@@ -1,0 +1,15 @@
+{
+  "model_id": "Q2-TOPSIS-EWM",
+  "math_formulation": "Multi-scenario evaluation: normalize scenarios, compute EWM weights, TOPSIS ranking of planting strategies",
+  "variable_map": [
+    {"name": "scenarios", "meaning": "surplus/shortage scenarios", "unit": "", "bounds": []},
+    {"name": "weights", "meaning": "EWM-computed criterion weights", "unit": "", "bounds": [0, 1]}
+  ],
+  "pseudo_code": "Step1: Build decision matrix (scenarios x criteria). Step2: EWM compute weights. Step3: TOPSIS ranking. Step4: Select best strategy.",
+  "parameter_bounds": {"n_scenarios": [3, 20], "n_criteria": [2, 10]},
+  "validation_cases": [
+    {"name": "Three_scenario_test", "input": {"n_scenarios": 3, "n_criteria": 3}, "expected": 1, "tol": 0},
+    {"name": "Dominant_scenario", "input": {"dominant": true}, "expected": 1, "tol": 0}
+  ],
+  "invariants": ["sum(weights)=1", "TOPSIS closeness in [0,1]", "ranking consistent under row permutation"]
+}

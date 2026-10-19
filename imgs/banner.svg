@@ -1,0 +1,116 @@
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
+
+<!-- 作者 shingja · https://github.com/shingja · 双许可见 LICENSE · 保留版权标识 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="shingja 的数模工作台">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111a2e"/>
+      <stop offset="1" stop-color="#1b1430"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6b9d"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fde047"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="1035" cy="180" r="205" fill="#ff6b9d" opacity="0.06"/>
+  <circle cx="1120" cy="90" r="120" fill="#22d3ee" opacity="0.05"/>
+
+  <!-- left: title block -->
+  <text x="72" y="76" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#7c6f91" letter-spacing="3">USTB · 2026</text>
+  <text x="72" y="150" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="64" font-weight="800" fill="#fff7ed">shingja</text>
+  <text x="76" y="196" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="30" font-weight="600" fill="#fff7ed">Math Modeling Workbench</text>
+  <text x="76" y="230" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="18" fill="#c4b5d4">Linger · Tide · Gloom · Yearn</text>
+  <text x="76" y="258" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="14" fill="#8f7aa3">徘徊 · 潮起 · 沉郁 · 心生惦念</text>
+  <text x="76" y="286" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#7c6f91" letter-spacing="1">四段 Agent 工作流 · CUMCM / MCM / ICM</text>
+  <rect x="76" y="300" width="150" height="4" rx="2" fill="url(#cyan)"/>
+  <text x="76" y="330" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#7c6f91" letter-spacing="1.2">12 类问题 · 164 张范式卡 · 228 个 MATLAB 实现 · 6 道门禁</text>
+  <text x="76" y="352" font-family="Segoe UI, sans-serif" font-size="10" fill="#5f5570" letter-spacing="2">MATH MODELING WORKBENCH · USTB</text>
+
+  <!-- right: optimisation panel -->
+  <g transform="translate(1002 178) rotate(-5)">
+    <rect x="-152" y="-114" width="304" height="228" rx="16" fill="#161020" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="-128" cy="-94" r="4" fill="#ff6b9d"/>
+    <circle cx="-112" cy="-94" r="4" fill="#fde047"/>
+    <circle cx="-96" cy="-94" r="4" fill="#22d3ee"/>
+
+    <g stroke="#31405a" stroke-width="1" stroke-opacity="0.75">
+      <path d="M-124 -70 V74"/>
+      <path d="M-124 74 H124"/>
+      <path d="M-74 -70 V74" stroke-dasharray="3 5" stroke-opacity="0.35"/>
+      <path d="M-24 -70 V74" stroke-dasharray="3 5" stroke-opacity="0.35"/>
+      <path d="M26 -70 V74" stroke-dasharray="3 5" stroke-opacity="0.35"/>
+      <path d="M76 -70 V74" stroke-dasharray="3 5" stroke-opacity="0.35"/>
+    </g>
+
+    <!-- feasible region -->
+    <path d="M-120 66 L-120 34 C-96 30 -78 12 -58 2 C-34 -10 -12 -30 12 -38 C48 -50 82 -54 118 -58 L118 66 Z"
+          fill="#ff6b9d" opacity="0.08"/>
+
+    <!-- Pareto front -->
+    <path d="M-120 34 C-96 30 -78 12 -58 2 C-34 -10 -12 -30 12 -38 C48 -50 82 -54 118 -58"
+          fill="none" stroke="url(#pink)" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- candidate points -->
+    <g fill="#67e8f9" stroke="#0b1220" stroke-width="2">
+      <circle cx="-120" cy="34" r="5"/>
+      <circle cx="-88" cy="18" r="5"/>
+      <circle cx="-58" cy="2" r="5"/>
+      <circle cx="-24" cy="-18" r="5"/>
+      <circle cx="12" cy="-38" r="5"/>
+      <circle cx="58" cy="-48" r="5"/>
+      <circle cx="118" cy="-58" r="5"/>
+    </g>
+
+    <!-- dominated cloud -->
+    <g fill="#fde047" opacity="0.75">
+      <rect x="-74" y="36" width="7" height="7" rx="1.5"/>
+      <rect x="-42" y="45" width="7" height="7" rx="1.5"/>
+      <rect x="8" y="28" width="7" height="7" rx="1.5"/>
+      <rect x="46" y="42" width="7" height="7" rx="1.5"/>
+      <rect x="86" y="24" width="7" height="7" rx="1.5"/>
+      <rect x="24" y="54" width="7" height="7" rx="1.5"/>
+    </g>
+
+    <text x="112" y="88" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="9" fill="#5f5570" letter-spacing="1.5">PARETO FRONT</text>
+  </g>
+
+  <!-- floating matrix card -->
+  <g transform="translate(1114 62) rotate(8)">
+    <rect x="-48" y="-36" width="96" height="72" rx="10" fill="#161020" stroke="#fde047" stroke-width="2"/>
+    <g stroke="#fde047" stroke-opacity="0.55" stroke-width="1.6">
+      <path d="M-32 -20 H32"/><path d="M-32 -6 H32"/><path d="M-32 8 H32"/><path d="M-32 22 H32"/>
+      <path d="M-16 -28 V28"/><path d="M0 -28 V28"/><path d="M16 -28 V28"/>
+    </g>
+  </g>
+
+  <!-- gate chips -->
+  <g font-family="Segoe UI, sans-serif" font-size="11" font-weight="700">
+    <g transform="translate(846 308)">
+      <rect x="-24" y="-15" width="48" height="30" rx="8" fill="#161020" stroke="#ff6b9d" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" fill="#ff6b9d">M1</text>
+    </g>
+    <g transform="translate(944 308)">
+      <rect x="-24" y="-15" width="48" height="30" rx="8" fill="#161020" stroke="#22d3ee" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" fill="#67e8f9">C1</text>
+    </g>
+    <g transform="translate(1042 308)">
+      <rect x="-24" y="-15" width="48" height="30" rx="8" fill="#161020" stroke="#fde047" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fde047">W2</text>
+    </g>
+  </g>
+</svg>

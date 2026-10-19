@@ -1,0 +1,11 @@
+# 开发/测试依赖（运行 Skill 时按需安装，测试与 CI 需要全部）
+matplotlib>=3.8
+numpy>=1.26
+python-docx>=1.1
+openpyxl>=3.1
+lxml>=5.0
+pypdf>=4.0
+pdfplumber>=0.11
+pdf2image>=1.17
+Pillow>=10.0
+defusedxml>=0.7

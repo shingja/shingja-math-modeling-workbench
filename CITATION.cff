@@ -1,0 +1,43 @@
+# 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识
+cff-version: 1.2.0
+title: "shingja's Math Modeling Workbench — four-stage agent workflow for mathematical-modeling competitions"
+message: "如果本仓库或其思路对你的论文/项目有帮助，请按以下格式引用。If this repository or its ideas helped your paper or project, please cite it as below."
+type: software
+authors:
+  - alias: shingja
+    name: shingja
+version: "0.1.0"
+date-released: "2026-10-08"
+repository-code: "https://github.com/shingja/shingja-math-modeling-workbench"
+url: "https://github.com/shingja/shingja-math-modeling-workbench"
+license: LicenseRef-Dual-NonCommercial
+license-url: "https://github.com/shingja/shingja-math-modeling-workbench/blob/main/LICENSE"
+keywords:
+  - mathematical modeling
+  - 数学建模
+  - CUMCM
+  - MCM/ICM
+  - agent skill
+  - Linger
+  - Tide
+  - Gloom
+  - Yearn
+  - MATLAB
+  - Python
+  - reproducible research
+abstract: >-
+  四段 agent 工作流(Linger 徘徊/建模、Tide 潮起/求解、Gloom 沉郁/写作、
+  Yearn 心生惦念/终审交付),含 6 道质量门禁、164 张范式卡、228 个 MATLAB 实现、
+  出版级出图规范与 AI 使用合规模板。
+  A four-stage agent workflow (Linger / Tide / Gloom / Yearn) with six quality
+  gates, 164 paradigm cards, 228 MATLAB implementations, publication-grade figure
+  standards and AI-use disclosure templates.
+preferred-citation:
+  type: software
+  authors:
+    - alias: shingja
+      name: shingja
+  title: "shingja's Math Modeling Workbench"
+  year: 2026
+  version: "0.1.0"
+  url: "https://github.com/shingja/shingja-math-modeling-workbench"

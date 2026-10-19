@@ -1,0 +1,55 @@
+% 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识
+% ============================================================
+% 05 — 问题二: 模型建立与求解
+% 说明: 结构与问题一类似, 注意与问题一的递进关系。
+%       若问题二在问题一基础上扩展, 需明确指出继承与改进之处。
+%       数值必须从 results/results.json 提取, 禁止手写。
+%       数值格式: 4位有效数字, 百分比2位小数, p值3位小数。
+% ============================================================
+
+\section{问题二: [问题二标题]}
+
+\subsection{建模思路}
+% [此处描述与问题一的关联和问题二的特殊性。]
+
+问题二在问题一的基础上，进一步考虑了[新增因素/放宽假设]。这使得原模型在[某方面]不再适用，需要对模型进行[扩展/修正]。本文采用[方法名称]来解决这一问题。
+
+\subsection{模型建立}
+% [此处给出扩展后的数学模型。]
+
+在问题一模型的基础上，引入[新变量/新约束]，建立如下扩展模型：
+
+\begin{equation}
+    \min_{x, y} \quad F(x, y) = \text{[目标函数表达式]}
+\end{equation}
+
+\begin{align}
+    \text{s.t.} \quad
+    & g_i(x, y) \leq 0, \quad i = 1, 2, \ldots, m' \\
+    & h_j(x, y) = 0, \quad j = 1, 2, \ldots, p' \\
+    & x \in \Omega_x, \; y \in \Omega_y
+\end{align}
+
+\subsection{算法设计与求解}
+% [此处描述求解算法, 说明与问题一算法的异同。]
+
+考虑到问题二[计算复杂度/特殊结构]，本文采用[算法名称]进行求解。相较于问题一，算法在[某方面]做了[改进/调整]。
+
+\subsection{结果分析}
+% [此处解读结果, 并与问题一结果进行对比分析。]
+
+求解得到[关键结果]。与问题一结果对比（见表\ref{tab:comparison}），[对比分析结论]。
+
+\begin{table}[H]
+    \centering
+    \caption{问题一与问题二结果对比}
+    \label{tab:comparison}
+    \begin{tabular}{cccc}
+        \toprule
+        \textbf{指标} & \textbf{问题一} & \textbf{问题二} & \textbf{变化} \\
+        \midrule
+        [指标1] & [数值] & [数值] & [变化量/率] \\
+        [指标2] & [数值] & [数值] & [变化量/率] \\
+        \bottomrule
+    \end{tabular}
+\end{table}

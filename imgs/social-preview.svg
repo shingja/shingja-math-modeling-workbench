@@ -1,0 +1,109 @@
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
+
+<!-- 作者 shingja · https://github.com/shingja · 双许可见 LICENSE · 保留版权标识 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="shingja 的数模工作台 · social preview">
+  <defs>
+    <linearGradient id="spbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111a2e"/>
+      <stop offset="1" stop-color="#1b1430"/>
+    </linearGradient>
+    <linearGradient id="sppink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6b9d"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="spcyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <pattern id="spgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#7dd3fc" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#spbg)"/>
+  <rect width="1280" height="640" fill="url(#spgrid)"/>
+  <circle cx="1080" cy="320" r="280" fill="#ff6b9d" opacity="0.06"/>
+  <circle cx="1180" cy="150" r="170" fill="#22d3ee" opacity="0.05"/>
+
+  <text x="88" y="120" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" fill="#7c6f91" letter-spacing="4">USTB · 2026</text>
+
+  <text x="88" y="252" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="96" font-weight="800" fill="#fff7ed">shingja</text>
+  <text x="92" y="310" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="38" font-weight="600" fill="#fff7ed">Math Modeling Workbench</text>
+  <text x="92" y="356" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24" fill="#c4b5d4">Linger · Tide · Gloom · Yearn</text>
+  <text x="92" y="396" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="18" fill="#8f7aa3">徘徊 · 潮起 · 沉郁 · 心生惦念</text>
+  <text x="92" y="434" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16" fill="#8f7aa3" letter-spacing="1">四段 Agent 工作流 · CUMCM / MCM / ICM</text>
+
+  <rect x="92" y="452" width="210" height="5" rx="2.5" fill="url(#spcyan)"/>
+
+  <text x="92" y="510" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16" fill="#7c6f91" letter-spacing="2">12 类问题 · 164 张范式卡 · 228 个 MATLAB 实现 · 6 道门禁</text>
+  <text x="92" y="566" font-family="Segoe UI, sans-serif" font-size="13" fill="#5f5570" letter-spacing="3">MATH MODELING WORKBENCH · USTB</text>
+
+  <!-- optimisation panel -->
+  <g transform="translate(1040 340) rotate(-5) scale(1.35)">
+    <rect x="-152" y="-114" width="304" height="228" rx="16" fill="#161020" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="-128" cy="-94" r="4" fill="#ff6b9d"/>
+    <circle cx="-112" cy="-94" r="4" fill="#fde047"/>
+    <circle cx="-96" cy="-94" r="4" fill="#22d3ee"/>
+
+    <g stroke="#31405a" stroke-width="1" stroke-opacity="0.75">
+      <path d="M-124 -70 V74"/>
+      <path d="M-124 74 H124"/>
+      <path d="M-74 -70 V74" stroke-dasharray="3 5" stroke-opacity="0.35"/>
+      <path d="M-24 -70 V74" stroke-dasharray="3 5" stroke-opacity="0.35"/>
+      <path d="M26 -70 V74" stroke-dasharray="3 5" stroke-opacity="0.35"/>
+      <path d="M76 -70 V74" stroke-dasharray="3 5" stroke-opacity="0.35"/>
+    </g>
+
+    <path d="M-120 66 L-120 34 C-96 30 -78 12 -58 2 C-34 -10 -12 -30 12 -38 C48 -50 82 -54 118 -58 L118 66 Z"
+          fill="#ff6b9d" opacity="0.08"/>
+    <path d="M-120 34 C-96 30 -78 12 -58 2 C-34 -10 -12 -30 12 -38 C48 -50 82 -54 118 -58"
+          fill="none" stroke="url(#sppink)" stroke-width="4" stroke-linecap="round"/>
+
+    <g fill="#67e8f9" stroke="#0b1220" stroke-width="2">
+      <circle cx="-120" cy="34" r="5"/>
+      <circle cx="-88" cy="18" r="5"/>
+      <circle cx="-58" cy="2" r="5"/>
+      <circle cx="-24" cy="-18" r="5"/>
+      <circle cx="12" cy="-38" r="5"/>
+      <circle cx="58" cy="-48" r="5"/>
+      <circle cx="118" cy="-58" r="5"/>
+    </g>
+
+    <g fill="#fde047" opacity="0.75">
+      <rect x="-74" y="36" width="7" height="7" rx="1.5"/>
+      <rect x="-42" y="45" width="7" height="7" rx="1.5"/>
+      <rect x="8" y="28" width="7" height="7" rx="1.5"/>
+      <rect x="46" y="42" width="7" height="7" rx="1.5"/>
+      <rect x="86" y="24" width="7" height="7" rx="1.5"/>
+      <rect x="24" y="54" width="7" height="7" rx="1.5"/>
+    </g>
+
+    <text x="112" y="88" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="9" fill="#5f5570" letter-spacing="1.5">PARETO FRONT</text>
+  </g>
+
+  <!-- floating matrix card -->
+  <g transform="translate(1188 96) rotate(8) scale(1.2)">
+    <rect x="-48" y="-36" width="96" height="72" rx="10" fill="#161020" stroke="#fde047" stroke-width="2"/>
+    <g stroke="#fde047" stroke-opacity="0.55" stroke-width="1.6">
+      <path d="M-32 -20 H32"/><path d="M-32 -6 H32"/><path d="M-32 8 H32"/><path d="M-32 22 H32"/>
+      <path d="M-16 -28 V28"/><path d="M0 -28 V28"/><path d="M16 -28 V28"/>
+    </g>
+  </g>
+
+  <!-- gate chips -->
+  <g font-family="Segoe UI, sans-serif" font-size="12" font-weight="700">
+    <g transform="translate(820 556)">
+      <rect x="-28" y="-17" width="56" height="34" rx="9" fill="#161020" stroke="#ff6b9d" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" fill="#ff6b9d">M1</text>
+    </g>
+    <g transform="translate(930 556)">
+      <rect x="-28" y="-17" width="56" height="34" rx="9" fill="#161020" stroke="#22d3ee" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" fill="#67e8f9">C1</text>
+    </g>
+    <g transform="translate(1040 556)">
+      <rect x="-28" y="-17" width="56" height="34" rx="9" fill="#161020" stroke="#fde047" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" fill="#fde047">W2</text>
+    </g>
+  </g>
+</svg>

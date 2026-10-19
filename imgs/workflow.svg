@@ -1,0 +1,108 @@
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Linger / Tide / Gloom / Yearn 四段工作流与质量门禁">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1b1430"/>
+    </linearGradient>
+    <marker id="arrowPink" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#ff6b9d"/>
+    </marker>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#22d3ee"/>
+    </marker>
+    <marker id="arrowYellow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#fde047"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#a78bfa"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="320" rx="14" fill="url(#wbg)"/>
+  <g stroke="#7dd3fc" stroke-opacity="0.05">
+    <path d="M0 40 H1200"/><path d="M0 80 H1200"/><path d="M0 120 H1200"/>
+    <path d="M0 160 H1200"/><path d="M0 200 H1200"/><path d="M0 240 H1200"/>
+    <path d="M0 280 H1200"/>
+  </g>
+
+  <text x="40" y="40" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#7c6f91" letter-spacing="2.5">FOUR-STAGE PIPELINE · LINGER → TIDE → GLOOM → YEARN</text>
+  <text x="1160" y="40" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="11" fill="#5f5570" letter-spacing="2">6 QUALITY GATES</text>
+
+  <!-- Linger -->
+  <g>
+    <rect x="30" y="66" width="240" height="156" rx="14" fill="#161020" stroke="#ff6b9d" stroke-width="2.5"/>
+    <circle cx="62" cy="98" r="15" fill="#ff6b9d"/>
+    <text x="62" y="104" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#0b1220">1</text>
+    <text x="88" y="105" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#fff7ed">Linger</text>
+    <text x="152" y="104" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#ff6b9d">徘徊</text>
+    <text x="50" y="138" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" fill="#c4b5d4">读题 · 盘点附件 · 拆子问题</text>
+    <text x="50" y="160" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" fill="#c4b5d4">选型 · 假设 · 验证方案</text>
+    <text x="50" y="196" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#8f7aa3">题目分析报告 · 术语表格</text>
+  </g>
+
+  <!-- Tide -->
+  <g>
+    <rect x="320" y="66" width="240" height="156" rx="14" fill="#161020" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="352" cy="98" r="15" fill="#22d3ee"/>
+    <text x="352" y="104" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#0b1220">2</text>
+    <text x="378" y="105" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#fff7ed">Tide</text>
+    <text x="422" y="104" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#67e8f9">潮起</text>
+    <text x="340" y="138" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" fill="#c4b5d4">求解 · 仿真 · 出图</text>
+    <text x="340" y="160" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" fill="#c4b5d4">哈希 · 种子 · 复现清单</text>
+    <text x="340" y="196" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#8f7aa3">代码 · 结果表 · 候选图</text>
+  </g>
+
+  <!-- Gloom -->
+  <g>
+    <rect x="610" y="66" width="240" height="156" rx="14" fill="#161020" stroke="#fde047" stroke-width="2.5"/>
+    <circle cx="642" cy="98" r="15" fill="#fde047"/>
+    <text x="642" y="104" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#0b1220">3</text>
+    <text x="668" y="105" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#fff7ed">Gloom</text>
+    <text x="742" y="104" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#fde047">沉郁</text>
+    <text x="630" y="138" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" fill="#c4b5d4">证据链 · 论文初稿</text>
+    <text x="630" y="160" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" fill="#c4b5d4">排版 · 图表交叉引用</text>
+    <text x="630" y="196" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#8f7aa3">论文初稿 · 引用核对</text>
+  </g>
+
+  <!-- Yearn -->
+  <g>
+    <rect x="900" y="66" width="240" height="156" rx="14" fill="#161020" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="932" cy="98" r="15" fill="#a78bfa"/>
+    <text x="932" y="104" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#0b1220">4</text>
+    <text x="958" y="105" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#fff7ed">Yearn</text>
+    <text x="1022" y="104" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" fill="#c4b5fd">心生惦念</text>
+    <text x="920" y="138" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" fill="#c4b5d4">终审 · W2 门禁</text>
+    <text x="920" y="160" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" fill="#c4b5d4">提交包 · AI 声明 · 复盘</text>
+    <text x="920" y="196" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="10" fill="#8f7aa3">完整论文.docx · 提交包</text>
+  </g>
+
+  <!-- gates -->
+  <path d="M274 132 H314" stroke="#ff6b9d" stroke-width="2.2" marker-end="url(#arrowPink)"/>
+  <g transform="translate(294 132)">
+    <rect x="-18" y="-12" width="36" height="24" rx="6" fill="#0b1220" stroke="#ff6b9d" stroke-width="1.4"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#ff6b9d">M1</text>
+  </g>
+
+  <path d="M564 132 H604" stroke="#22d3ee" stroke-width="2.2" marker-end="url(#arrowCyan)"/>
+  <g transform="translate(584 132)">
+    <rect x="-34" y="-12" width="68" height="24" rx="6" fill="#0b1220" stroke="#22d3ee" stroke-width="1.4"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="9" font-weight="700" fill="#67e8f9">P1·C1·P2</text>
+  </g>
+
+  <path d="M854 132 H894" stroke="#fde047" stroke-width="2.2" marker-end="url(#arrowYellow)"/>
+  <g transform="translate(874 132)">
+    <rect x="-18" y="-12" width="36" height="24" rx="6" fill="#0b1220" stroke="#fde047" stroke-width="1.4"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#fde047">W1</text>
+  </g>
+
+  <path d="M1144 144 H1170 V250 H1070" fill="none" stroke="#a78bfa" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrowPurple)"/>
+  <g transform="translate(1010 250)">
+    <rect x="-46" y="-12" width="92" height="24" rx="6" fill="#0b1220" stroke="#a78bfa" stroke-width="1.4"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="9" font-weight="700" fill="#c4b5fd">W2 终检</text>
+  </g>
+
+  <!-- M-Loop -->
+  <path d="M440 222 V272 H150 V222" fill="none" stroke="#ff6b9d" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#arrowPink)"/>
+  <text x="295" y="294" text-anchor="middle" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11" fill="#8f7aa3">M-Loop：指标不达标则回到 Linger 迭代</text>
+</svg>

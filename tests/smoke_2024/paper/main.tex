@@ -1,0 +1,83 @@
+% 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识
+% !TEX program = xelatex
+% 2026 CUMCM Smoke Test — Problem C (2024): Crop Planting Strategy
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\lstset{basicstyle=\small\ttfamily, breaklines=true, frame=single, numbers=left}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\newcommand{\resultQ1Profit}{4.285e+05}
+\newcommand{\resultQ1Land}{8.453e+02}
+\newcommand{\resultQ2Score}{0.8234}
+\newcommand{\resultQ3Sensitivity}{0.1500}
+\begin{document}
+% ====== Page 1: 承诺书 ======
+\thispagestyle{empty}
+\begin{center}{\LARGE\textbf{承\hspace{1em}诺\hspace{1em}书}}\end{center}
+\vspace{2cm}
+我们仔细阅读了《全国大学生数学建模竞赛章程》和《全国大学生数学建模竞赛论文格式规范》(2026版)。
+我们郑重承诺，严格遵守竞赛章程和参赛规则，以保证竞赛的公正、公平性。
+\vspace{2cm}
+我们参赛选择的题号是：\underline{C}
+\vspace{1cm}
+\begin{flushright}参赛队员（签名）：\underline{\hspace{2cm}}\\日期：\underline{2026}年\underline{9}月\underline{10}日\end{flushright}
+\newpage
+% ====== Page 2: 编号专用页 ======
+\thispagestyle{empty}
+\begin{center}{\LARGE\textbf{赛\hspace{1em}区\hspace{1em}评\hspace{1em}阅\hspace{1em}编\hspace{1em}号}}\end{center}
+\vspace{3cm}
+\begin{tabular}{|c|c|c|c|c|c|}\hline & & & & & \\\hline & & & & & \\\hline & & & & & \\\hline\end{tabular}
+\vspace{2cm}
+\begin{flushright}全国大学生数学建模竞赛组委会\\2026年9月\end{flushright}
+\newpage
+% ====== Page 3: 摘要 ======
+\setcounter{page}{1}
+\begin{center}{\LARGE\textbf{基于线性规划和TOPSIS的农作物种植策略优化}}\end{center}
+\vspace{1cm}
+\begin{abstract}
+\noindent\textbf{摘要：}本文针对2024年CUMCM C题农作物种植策略优化问题，建立了线性规划模型与TOPSIS综合评价模型。针对问题一，以期望利润最大化为目标，建立了线性规划(LP)模型，考虑土地约束与轮作约束，使用MATLAB的linprog求解。最优种植方案下期望利润为4.285e+05元，总种植面积845.3亩。针对问题二，构建了基于熵权法(EWM)和TOPSIS的多情景评价模型，TOPSIS贴近度达到0.8234，选出的最优策略在稳健性方面优于问题一的单一最优解。针对问题三，进行了价格灵敏度分析，结果表明利润对玉米价格变化的弹性为0.1500。灵敏度分析验证了模型对参数变化的稳定性。本文方法在2024-2030年种植规划中具有实际应用价值，但假设价格分布为正态分布，忽略极端市场波动。
+\end{abstract}
+\noindent\textbf{关键词：}线性规划；TOPSIS；熵权法；灵敏度分析；农作物种植策略
+\newpage
+\section{问题重述与分析}
+2024年CUMCM C题要求对华北地区某乡镇的农作物种植进行优化规划，涉及16种农作物、34个村庄、1201亩耕地，需在2024-2030年间做出种植决策。
+\textbf{问题一：}基于2023年数据建立优化模型，确定最优种植面积。\textbf{问题二：}考虑过剩/短缺情景下的多情景评价。\textbf{问题三：}价格灵敏度分析。
+\section{模型假设}
+\begin{enumerate}\item 价格服从正态分布。\item 轮作约束为同种作物连续种植不超过2年。\item 耕地质量均质。\end{enumerate}
+\section{符号说明}
+\begin{table}[H]\centering\caption{符号说明表}
+\begin{tabular}{c c c}\toprule[1.5pt] 符号 & 含义 & 单位 \\\midrule[0.75pt]
+$x_{ij}$ & 第$i$地块第$j$种作物种植面积 & 亩 \\ $\pi_j$ & 期望利润 & 元/亩 \\ $w_k$ & 熵权 & — \\ $C_i$ & TOPSIS贴近度 & — \\\bottomrule[1.5pt]\end{tabular}\end{table}
+\section{问题一：基于线性规划的种植优化}
+\subsection{模型建立}
+$\max Z = \sum_{i=1}^{n}\sum_{j=1}^{m} \pi_j \cdot x_{ij}$，约束$\sum_{j} x_{ij} \leq L_i$。
+\subsection{求解结果}
+最优期望利润为4.285e+05元，总种植面积845.3亩。
+\begin{figure}[H]\centering\includegraphics[width=0.8\textwidth]{../figures/fig1_allocation.png}\caption{最优种植面积分配}\label{fig:q1-allocation}\end{figure}
+\section{问题二：基于TOPSIS-EWM的多情景评价}
+采用熵权法确定指标权重，TOPSIS法排序。最优方案贴近度$C^* = 0.8234$。
+\begin{figure}[H]\centering\includegraphics[width=0.8\textwidth]{../figures/fig2_topsis.png}\caption{TOPSIS方案排序}\label{fig:q2-topsis}\end{figure}
+\section{问题三：灵敏度分析}
+小麦和玉米价格$\pm20\%$扰动，利润对玉米价格弹性为0.1500。
+\section{模型评价}
+\textbf{优点：}简洁快速。\textbf{局限：}假设正态分布忽略极端波动。\textbf{改进：}引入两阶段随机规划或鲁棒优化。
+\begin{thebibliography}{99}
+\bibitem{ref1} Dantzig G B. Linear Programming and Extensions[M]. Princeton University Press, 1963.
+\bibitem{ref2} Hwang C L, Yoon K. Multiple Attribute Decision Making[M]. Springer, 1981. DOI:10.1007/978-3-642-48318-9
+\bibitem{ref3} Shannon C E. A Mathematical Theory of Communication[J]. Bell System Technical Journal, 1948, 27(3): 379-423. DOI:10.1002/j.1538-7305.1948.tb01338.x
+\end{thebibliography}
+\newpage
+\appendix
+\section{程序源代码}
+\subsection{问题一求解程序}
+\lstinputlisting[language=Matlab]{../code/solve_q1.m}
+\subsection{问题二求解程序}
+\lstinputlisting[language=Matlab]{../code/solve_q2.m}
+\end{document}

@@ -1,0 +1,14 @@
+**.pyc
+__pycache__/
+
+CLAUDE.md
+
+.backups/
+
+# 内部资料（发布计划/推广/检查清单），永不公开、不入库
+docs/internal/
+
+# 第三方官方工具（Anthropic skills），由 tools/fetch_official_tools.py 本地获取，不随仓库分发
+tools/docx/
+tools/pdf/
+tools/xlsx/

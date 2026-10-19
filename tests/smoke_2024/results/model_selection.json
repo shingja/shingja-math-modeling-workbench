@@ -1,0 +1,1 @@
+{"subproblem":"Q1","candidates":[{"name":"LP","calibration_score":0.92,"aic":[],"cv_rmse":[]},{"name":"IP with rotation","calibration_score":0.85,"aic":[],"cv_rmse":[]}],"selected":"LP","reason":"calibration_score 0.92 > 0.85; LP solves faster; IP adds rotation constraints but reduces profit by 3%"}

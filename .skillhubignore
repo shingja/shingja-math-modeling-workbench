@@ -1,0 +1,8 @@
+作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE
+
+本文件用于对支持 .skillhubignore 的 skill 聚合站声明：不授权抓取、索引、收录本仓库内容。
+This file opts this repository out of crawling/indexing by skill registries that honor it.
+
+说明：本仓库为源码可见（source-available）而非 OSI 开源；收录、镜像、再分发须事先获得作者许可。
+Note: this repository is source-available, not OSI open source. Indexing, mirroring or
+redistribution requires prior permission from the author.

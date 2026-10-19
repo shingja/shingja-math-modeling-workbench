@@ -1,0 +1,48 @@
+# 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识
+name: Bug 报告
+description: 脚本报错、门禁误判、文档错误
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先跑一遍：`python -m unittest discover -s tests -p "test_*.py"`，
+        并在下面贴出版本号（`VERSION` 文件内容）。
+        请勿粘贴个人/队伍/学校信息与当届赛题内容。
+  - type: input
+    id: version
+    attributes:
+      label: 版本号
+      description: VERSION 文件内容
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 运行环境
+      placeholder: "Windows 11 / Python 3.11 / MATLAB R2024b（如有）"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 现象
+      description: 预期是什么，实际是什么
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 最小复现
+      description: 命令 + 关键参数（不要附题目文件与原数据）
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: 报错输出
+      description: 关键几行即可，去掉个人路径
+      render: text

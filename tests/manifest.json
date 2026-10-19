@@ -1,0 +1,1091 @@
+{
+  "meta": {
+    "version": "3.0.0-s5-honest",
+    "created": "2026-07-28",
+    "updated": "2026-07-28",
+    "description": "Algorithm test manifest. Each entry maps algorithm ID to test plan and execution status.",
+    "note": "过期口径, 以 validate_report.json 与 KNOWN_ISSUES.md 三口径为准",
+    "honest_denominator": 133,
+    "honest_coverage_rate": "84.2%",
+    "implementation_distribution": {
+      "standalone_m_missing": 20,
+      "standalone_m": 112,
+      "conceptual": 16,
+      "standalone_m_fails": 1,
+      "python_only": 4
+    }
+  },
+  "algorithms": [
+    {
+      "paradigm_id": "PARADIGM-0101-LP",
+      "category": "0101",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0102-IP",
+      "category": "0102",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0103-NLP",
+      "category": "0103",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0104-DP",
+      "category": "0104",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0105-GA",
+      "category": "0105",
+      "impl_type": "standalone_m",
+      "note": "matlab\\gaussian_log_likelihood.m; matlab\\comprehensive\\garch_model.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0106-PSO",
+      "category": "0106",
+      "impl_type": "standalone_m",
+      "note": "matlab\\optim\\particleswarm_pso.m; matlab\\tests\\property\\prop_pso_reproducibility.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0107-ACO",
+      "category": "0107",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0108-DE",
+      "category": "0108",
+      "impl_type": "standalone_m",
+      "note": "matlab\\svd_decompose.m; matlab\\comprehensive\\correspondence_analysis.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0109-SA",
+      "category": "0109",
+      "impl_type": "standalone_m",
+      "note": "matlab\\gibbs_sampler.m; matlab\\lsa_query.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0110-GWO",
+      "category": "0110",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0111-IA",
+      "category": "0111",
+      "impl_type": "standalone_m",
+      "note": "matlab\\gaussian_log_likelihood.m; matlab\\comprehensive\\reliability_fta.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0112-WOA",
+      "category": "0112",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0113-SSA",
+      "category": "0113",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0114-TS",
+      "category": "0114",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\bootstrap_resample.m; matlab\\optim\\ant_colony_tsp.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0115-GOAL-PROG",
+      "category": "0115",
+      "impl_type": "standalone_m",
+      "note": "matlab\\optim\\dynamic_programming.m; matlab\\optim\\fgoalattain_wrapper.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0116-MULTI-START",
+      "category": "0116",
+      "impl_type": "standalone_m",
+      "note": "matlab\\optim\\multistart_opt.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0117-SURROGATE-OPT",
+      "category": "0117",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\surrogateopt_wrapper.m; matlab\\optim\\bilevel_opt.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0118-BILEVEL",
+      "category": "0118",
+      "impl_type": "standalone_m",
+      "note": "matlab\\optim\\bilevel_opt.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0201-GM11",
+      "category": "0201",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\gm11_predict.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0202-ARIMA",
+      "category": "0202",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\arima_forecast.m; matlab\\tests\\property\\prop_arima_stationarity.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0203-EXP-SMOOTH",
+      "category": "0203",
+      "impl_type": "standalone_m",
+      "note": "matlab\\figures\\export_publication_figure.m; matlab\\predict\\exponential_smoothing.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0204-LSTM-FORECAST",
+      "category": "0204",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\arima_forecast.m; matlab\\comprehensive\\prophet_forecast.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0205-SVR",
+      "category": "0205",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0206-XGBOOST-LGBM",
+      "category": "0206",
+      "impl_type": "standalone_m",
+      "note": "matlab\\ml\\xgboost_predict.m; matlab\\ml\\xgboost_train.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0207-PROPHET",
+      "category": "0207",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\prophet_forecast.m; matlab\\tests\\property\\prop_ahp_consistency.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0208-STATE-SPACE",
+      "category": "0208",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\state_space.m; matlab\\templates\\template_statistics.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0209-GARCH",
+      "category": "0209",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\garch_model.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0210-VAR",
+      "category": "0210",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\variational_shooting.m; matlab\\comprehensive\\var_model.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0211-INTERPOLATION",
+      "category": "0211",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0301-AHP",
+      "category": "0301",
+      "impl_type": "standalone_m",
+      "note": "matlab\\evaluation\\ahp_evaluate.m; matlab\\tests\\property\\prop_ahp_consistency.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0302-TOPSIS",
+      "category": "0302",
+      "impl_type": "standalone_m",
+      "note": "matlab\\evaluation\\topsis_improved.m; matlab\\tests\\property\\prop_topsis_closeness_bounded.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0303-EWM",
+      "category": "0303",
+      "impl_type": "standalone_m",
+      "note": "matlab\\evaluation\\ewm_weight.m; matlab\\tests\\property\\prop_ewm_weights_sum.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0304-FUZZY-EVAL",
+      "category": "0304",
+      "impl_type": "standalone_m",
+      "note": "matlab\\eval\\interval_evaluation.m; matlab\\evaluation\\ahp_evaluate.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0305-GRA",
+      "category": "0305",
+      "impl_type": "standalone_m",
+      "note": "matlab\\evaluation\\gra_analysis.m; matlab\\interp\\interp_lagrange.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0306-RSR",
+      "category": "0306",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0307-CV-WEIGHT",
+      "category": "0307",
+      "impl_type": "standalone_m",
+      "note": "matlab\\evaluation\\ewm_weight.m; matlab\\evaluation\\subjective_weight.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0308-DEA",
+      "category": "0308",
+      "impl_type": "standalone_m",
+      "note": "matlab\\eval\\dea_analyze.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0309-SUBJECTIVE-WEIGHT",
+      "category": "0309",
+      "impl_type": "standalone_m",
+      "note": "matlab\\evaluation\\ewm_weight.m; matlab\\evaluation\\subjective_weight.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0310-INTERVAL-EVAL",
+      "category": "0310",
+      "impl_type": "standalone_m",
+      "note": "matlab\\eval\\interval_evaluation.m; matlab\\evaluation\\ahp_evaluate.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0311-IMPROVED-TOPSIS",
+      "category": "0311",
+      "impl_type": "standalone_m",
+      "note": "matlab\\evaluation\\topsis_improved.m; matlab\\tests\\property\\prop_topsis_closeness_bounded.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0401-DIJKSTRA",
+      "category": "0401",
+      "impl_type": "standalone_m",
+      "note": "matlab\\graph\\dijkstra.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0402-BELLMAN-FORD",
+      "category": "0402",
+      "impl_type": "standalone_m",
+      "note": "matlab\\graph\\bellman_ford.m; matlab\\graph\\maxflow_ford_fulkerson.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0403-FLOYD",
+      "category": "0403",
+      "impl_type": "standalone_m",
+      "note": "matlab\\graph\\floyd_warshall.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0404-MST",
+      "category": "0404",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0405-MAXFLOW",
+      "category": "0405",
+      "impl_type": "standalone_m",
+      "note": "matlab\\graph\\maxflow_ford_fulkerson.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0406-CPM",
+      "category": "0406",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0407-EULER-HAMILTON",
+      "category": "0407",
+      "impl_type": "standalone_m",
+      "note": "matlab\\graph\\euler_hamilton.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0408-HUNGARIAN",
+      "category": "0408",
+      "impl_type": "standalone_m",
+      "note": "matlab\\graph\\hungarian.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0501-PREPROCESS",
+      "category": "0501",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0502-OUTLIER",
+      "category": "0502",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\outlier_detect.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0503-DISTRIBUTIONS",
+      "category": "0503",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\distribution_fit.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0504-PCA",
+      "category": "0504",
+      "impl_type": "standalone_m",
+      "note": "matlab\\decomp\\pca_decomp.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0506-CLUSTER-KMEANS",
+      "category": "0506",
+      "impl_type": "standalone_m",
+      "note": "matlab\\cluster\\dbscan_cluster.m; matlab\\cluster\\hierarchical_cluster.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0507-CCA",
+      "category": "0507",
+      "impl_type": "standalone_m",
+      "note": "matlab\\stats\\cca_analyze.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0508-NMF",
+      "category": "0508",
+      "impl_type": "standalone_m",
+      "note": "matlab\\decomp\\nmf_decompose.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0509-TTEST",
+      "category": "0509",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0510-PLS",
+      "category": "0510",
+      "impl_type": "standalone_m",
+      "note": "matlab\\plsa_doc_topics.m; matlab\\plsa_top_words.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0511-FACTOR-ANALYSIS",
+      "category": "0511",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\correspondence_analysis.m; matlab\\eval\\dea_analyze.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0512-CORRESPONDENCE-ANALYSIS",
+      "category": "0512",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\correspondence_analysis.m; matlab\\eval\\dea_analyze.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0513-MANOVA",
+      "category": "0513",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\manova_test.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0522-MK-TREND",
+      "category": "0522",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\lemke_howson.m; matlab\\tests\\property\\prop_did_parallel_trends.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0523-HURST-RS",
+      "category": "0523",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\hurst_rs.m; matlab\\comprehensive\\seirs_vaccine.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0524-SURVIVAL-COX",
+      "category": "0524",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\survival_cox.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0525-DID",
+      "category": "0525",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\did_estimate.m; matlab\\tests\\property\\prop_did_parallel_trends.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0526-MORAN-KRIGING",
+      "category": "0526",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\moran_kriging.m; matlab\\surrogate\\kriging_gpr.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0601-QUEUING-ADV",
+      "category": "0601",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\advection_diffusion.m; matlab\\simulation\\queuing_theory.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0601-RF",
+      "category": "0601",
+      "impl_type": "standalone_m",
+      "note": "matlab\\figures\\plot_surface_3d.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0602-ADABOOST",
+      "category": "0602",
+      "impl_type": "standalone_m",
+      "note": "matlab\\ml\\adaboost_train.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0603-ISOLATION-FOREST",
+      "category": "0603",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\arima_forecast.m; matlab\\comprehensive\\prophet_forecast.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0604-DT",
+      "category": "0604",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0605-SVM",
+      "category": "0605",
+      "impl_type": "standalone_m",
+      "note": "matlab\\ml\\svm_predict.m; matlab\\ml\\svm_train.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0606-PERCEPTRON",
+      "category": "0606",
+      "impl_type": "standalone_m",
+      "note": "matlab\\perceptron.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0607-KNN",
+      "category": "0607",
+      "impl_type": "standalone_m",
+      "note": "matlab\\knn_predict.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0608-NAIVE-BAYES",
+      "category": "0608",
+      "impl_type": "standalone_m",
+      "note": "matlab\\naive_bayes_predict.m; matlab\\naive_bayes_train.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0609-LOGISTIC-REG",
+      "category": "0609",
+      "impl_type": "standalone_m",
+      "note": "matlab\\logistic_regression_predict.m; matlab\\logistic_regression_train.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0610-SVD",
+      "category": "0610",
+      "impl_type": "standalone_m",
+      "note": "matlab\\svd_decompose.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0611-LSA",
+      "category": "0611",
+      "impl_type": "standalone_m",
+      "note": "matlab\\lsa_query.m; matlab\\lsa_search.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0612-PLSA",
+      "category": "0612",
+      "impl_type": "standalone_m",
+      "note": "matlab\\plsa_doc_topics.m; matlab\\plsa_top_words.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0613-LDA",
+      "category": "0613",
+      "impl_type": "standalone_m_fails",
+      "note": "matlab\\lda_doc_topics.m; matlab\\lda_top_words.m",
+      "status": "subfunction_of"
+    },
+    {
+      "paradigm_id": "PARADIGM-0614-MCMC",
+      "category": "0614",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0615-PAGERANK",
+      "category": "0615",
+      "impl_type": "standalone_m",
+      "note": "matlab\\pagerank.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0616-CATBOOST",
+      "category": "0616",
+      "impl_type": "python_only",
+      "note": "",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0617-FP-GROWTH",
+      "category": "0617",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\fp_growth.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0618-CNN",
+      "category": "0618",
+      "impl_type": "python_only",
+      "note": "",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0619-GBDT",
+      "category": "0619",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0620-STACKING",
+      "category": "0620",
+      "impl_type": "python_only",
+      "note": "",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0621-EM",
+      "category": "0621",
+      "impl_type": "standalone_m",
+      "note": "matlab\\stats\\em_algorithm.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0622-APRIORI",
+      "category": "0622",
+      "impl_type": "standalone_m",
+      "note": "matlab\\ml\\apriori_association.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0701-GAME-NASH",
+      "category": "0701",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0701-MCMC",
+      "category": "0701",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0702-INVENTORY-EOQ",
+      "category": "0702",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\inventory_eoq.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0702-MARKOV-CHAIN",
+      "category": "0702",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\markov_chain.m; matlab\\utils\\solver_fallback_chain.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0703-QUEUING-BASIC",
+      "category": "0703",
+      "impl_type": "standalone_m",
+      "note": "matlab\\simulation\\queuing_theory.m; matlab\\tests\\property\\prop_queue_stability.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0704-BOOKSTORE",
+      "category": "0704",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0705-BOOTSTRAP",
+      "category": "0705",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\bootstrap_resample.m; matlab\\tests\\property\\prop_bootstrap_reproducibility.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0706-CELLULAR-AUTO",
+      "category": "0706",
+      "impl_type": "standalone_m",
+      "note": "matlab\\simulation\\cellular_automata.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0707-RELIABILITY",
+      "category": "0707",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\reliability_fta.m; matlab\\comprehensive\\reliability_weibull.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0708-SYSTEM-DYNAMICS",
+      "category": "0708",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\neurodynamics.m; matlab\\comprehensive\\system_dynamics.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0709-SEIRS-STOCHASTIC",
+      "category": "0709",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\seirs_vaccine.m; matlab\\comprehensive\\seir_model.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0710-LOTKA-VOLTERRA",
+      "category": "0710",
+      "impl_type": "standalone_m_missing",
+      "note": "no .m file found",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0711-NSGA2-TOPSIS",
+      "category": "0711",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0712-GWO-SVR",
+      "category": "0712",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0713-GA-LSTM",
+      "category": "0713",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0714-PROPENSITY-MATCH",
+      "category": "0714",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0715-GM11-ARIMA-COMBO",
+      "category": "0715",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0716-EWM-TOPSIS-COMBO",
+      "category": "0716",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0717-UNCERTAINTY-QUANTIFY",
+      "category": "0717",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0801-MALTHUS",
+      "category": "0801",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mechanism\\malthus_model.m; matlab\\tests\\property\\prop_malthus_positivity.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0802-LOGISTIC",
+      "category": "0802",
+      "impl_type": "standalone_m",
+      "note": "matlab\\logistic_regression_predict.m; matlab\\logistic_regression_train.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0803-LESLIE",
+      "category": "0803",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mechanism\\leslie_model.m; matlab\\tests\\property\\prop_leslie_nonnegative.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0804-SEIR",
+      "category": "0804",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\seirs_vaccine.m; matlab\\comprehensive\\seir_model.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0805-SEIRS-VACCINE",
+      "category": "0805",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\seirs_vaccine.m; matlab\\comprehensive\\seir_model.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0806-LOTKA-VOLTERRA-ODE",
+      "category": "0806",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\garch_model.m; matlab\\comprehensive\\seir_model.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0807-DIFFEQ-ITERATOR",
+      "category": "0807",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\advection_diffusion.m; matlab\\comprehensive\\reaction_diffusion.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0808-VARIATIONAL-SHOOTING",
+      "category": "0808",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\variational_shooting.m; matlab\\eval\\coefficient_variation.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0809-PDE-FDM-SOLVER",
+      "category": "0809",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mechanism\\ode_solver.m; matlab\\mechanism\\pde_crank_nicolson.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0810-SIR-EXTENDED",
+      "category": "0810",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\sir_extended.m; matlab\\tests\\property\\prop_sir_conservation.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0811-REACTION-DIFFUSION",
+      "category": "0811",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\advection_diffusion.m; matlab\\comprehensive\\reaction_diffusion.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0812-HEAT-2D",
+      "category": "0812",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\heat_2d.m; matlab\\figures\\plot_heatmap.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0813-ADVECTION-DIFFUSION",
+      "category": "0813",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\advection_diffusion.m; matlab\\comprehensive\\reaction_diffusion.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0814-CHEMICAL-KINETICS",
+      "category": "0814",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\chemical_kinetics.m; matlab\\tests\\property\\prop_chemical_mass_conservation.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0815-NEURODYNAMICS",
+      "category": "0815",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\neurodynamics.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0816-GROWTH-MODELS",
+      "category": "0816",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0901-DISCRIMINANT",
+      "category": "0901",
+      "impl_type": "standalone_m",
+      "note": "matlab\\stats\\fitcdiscr_wrapper.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-0902-CONJOINT-ANALYSIS",
+      "category": "0902",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0903-TEXT-MINING-PIPELINE",
+      "category": "0903",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0904-MISSING-DATA-IMPUTATION",
+      "category": "0904",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0905-FEATURE-SELECTION",
+      "category": "0905",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0906-SENSITIVITY-ANALYSIS",
+      "category": "0906",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-0907-MODEL-SELECTION",
+      "category": "0907",
+      "impl_type": "conceptual",
+      "note": "combined pattern or utility, covered by existing .m files",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-1001-GPR",
+      "category": "1001",
+      "impl_type": "standalone_m",
+      "note": "matlab\\surrogate\\kriging_gpr.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1002-EGO",
+      "category": "1002",
+      "impl_type": "standalone_m",
+      "note": "matlab\\surrogate\\ego_bayesopt.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1003-RSM",
+      "category": "1003",
+      "impl_type": "standalone_m",
+      "note": "matlab\\surrogate\\rsm_poly.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1004-RBF-SURROGATE",
+      "category": "1004",
+      "impl_type": "standalone_m",
+      "note": "matlab\\comprehensive\\surrogateopt_wrapper.m; matlab\\surrogate\\rbf_surrogate.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1005-PINN",
+      "category": "1005",
+      "impl_type": "python_only",
+      "note": "",
+      "status": "planned"
+    },
+    {
+      "paradigm_id": "PARADIGM-1006-POD-DEIM",
+      "category": "1006",
+      "impl_type": "standalone_m",
+      "note": "matlab\\surrogate\\pod_deim.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1101-CVAR",
+      "category": "1101",
+      "impl_type": "standalone_m",
+      "note": "matlab\\robust\\cvar_opt.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1102-ROBUST-COUNTERPART",
+      "category": "1102",
+      "impl_type": "standalone_m",
+      "note": "matlab\\robust\\robust_counterpart.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1103-CHANCE-CONSTRAINT",
+      "category": "1103",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\epsilon_constraint.m; matlab\\robust\\chance_constrained.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1104-STOCHASTIC-PROG",
+      "category": "1104",
+      "impl_type": "standalone_m",
+      "note": "matlab\\optim\\dynamic_programming.m; matlab\\optim\\intlinprog_wrapper.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1105-WASSERSTEIN-DRO",
+      "category": "1105",
+      "impl_type": "standalone_m",
+      "note": "matlab\\robust\\wasserstein_dro.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1201-NSGA2",
+      "category": "1201",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\nsga2.m; matlab\\mcdm\\nsga3.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1202-NSGA3",
+      "category": "1202",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\nsga2.m; matlab\\mcdm\\nsga3.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1203-MOEAD",
+      "category": "1203",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\moead.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1204-VIKOR",
+      "category": "1204",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\vikor.m; matlab\\tests\\property\\prop_vikor_q_bounded.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1205-CRITIC",
+      "category": "1205",
+      "impl_type": "standalone_m",
+      "note": "matlab\\graph\\critical_path.m; matlab\\mcdm\\critic_weight.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1206-BWM",
+      "category": "1206",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\bwm.m; matlab\\tests\\property\\prop_bwm_weights_sum.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1207-PROMETHEE",
+      "category": "1207",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\promethee.m; matlab\\tests\\property\\prop_promethee_transitivity.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1208-DEMATEL-ANP",
+      "category": "1208",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\dematel_anp.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1209-SHAPLEY",
+      "category": "1209",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\shapley_value.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1210-DEA",
+      "category": "1210",
+      "impl_type": "standalone_m",
+      "note": "matlab\\eval\\dea_analyze.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1211-EPSILON-CONSTRAINT",
+      "category": "1211",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\epsilon_constraint.m; matlab\\robust\\chance_constrained.m",
+      "status": "implemented"
+    },
+    {
+      "paradigm_id": "PARADIGM-1212-MABAC",
+      "category": "1212",
+      "impl_type": "standalone_m",
+      "note": "matlab\\mcdm\\mabac_rank.m; matlab\\tests\\property\\prop_mabac_ordering.m",
+      "status": "implemented"
+    }
+  ]
+}

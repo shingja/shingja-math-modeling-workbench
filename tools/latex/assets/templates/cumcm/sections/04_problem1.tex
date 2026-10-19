@@ -1,0 +1,64 @@
+% 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识
+% ============================================================
+% 04 — 问题一: 模型建立与求解
+% 说明: 按照 "建模思路 → 模型建立 → 算法设计 → 求解结果" 结构。
+%       关键数值必须从 results/results.json 提取, 禁止手写。
+%       数值格式: 4位有效数字, 百分比2位小数, p值3位小数。
+% ============================================================
+
+\section{问题一: [问题一标题]}
+
+\subsection{建模思路}
+% [此处描述问题分析过程和建模思路, 说明为什么选择该方法。]
+
+针对问题一，首先分析[核心矛盾/关键特征]。考虑到[约束条件/数据特点]，本文采用[方法名称]进行建模，主要基于以下考虑：(1) [理由一]; (2) [理由二]; (3) [理由三]。
+
+\subsection{模型建立}
+% [此处给出数学模型: 目标函数/约束条件/变量定义。使用 align 环境排版关键公式。]
+
+定义决策变量 $x = (x_1, x_2, \ldots, x_n)^T$，建立如下数学模型：
+
+\begin{equation}
+    \min_{x} \quad f(x) = \text{[目标函数表达式]}
+\end{equation}
+
+\begin{equation}
+    \text{s.t.} \quad
+    \begin{cases}
+        g_i(x) \leq 0, \quad i = 1, 2, \ldots, m \\
+        h_j(x) = 0, \quad j = 1, 2, \ldots, p \\
+        x \in \Omega
+    \end{cases}
+\end{equation}
+
+其中，$g_i(x)$ 为不等式约束，$h_j(x)$ 为等式约束，$\Omega$ 为决策变量的可行域。
+
+\subsection{算法设计与求解}
+% [此处描述求解算法: 算法流程/参数设置/收敛判据。]
+
+本文采用[算法名称]求解上述模型，算法流程如下：
+
+\begin{enumerate}
+    \item \textbf{初始化:} [参数初始化说明]
+    \item \textbf{迭代求解:} [迭代过程说明]
+    \item \textbf{终止判据:} [收敛条件说明]
+\end{enumerate}
+
+\subsection{结果分析}
+% [此处用文字解读结果, 引用表格和图形。数值从 results.json 提取。]
+
+求解得到[关键结果]。如表\ref{tab:prob1_result}和图\ref{fig:prob1}所示，[结果解读]。
+
+\begin{table}[H]
+    \centering
+    \caption{问题一主要结果}
+    \label{tab:prob1_result}
+    \begin{tabular}{ccc}
+        \toprule
+        \textbf{指标} & \textbf{数值} & \textbf{单位} \\
+        \midrule
+        [指标1] & [数值] & [单位] \\
+        [指标2] & [数值] & [单位] \\
+        \bottomrule
+    \end{tabular}
+\end{table}

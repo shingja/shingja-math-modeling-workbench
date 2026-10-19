@@ -1,0 +1,32 @@
+# 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    labels: ["dependencies"]
+    groups:
+      python-minor-patch:
+        update-types: ["minor", "patch"]
+    # 关键：恶意版本通常在发布后数小时内被发现并撤回。
+    # 默认 Dependabot 会立刻提议新版本，cooldown 让 PR 等在窗口期之后。
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 7
+      semver-patch-days: 3
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    labels: ["dependencies", "ci"]
+    groups:
+      actions:
+        patterns: ["*"]
+    # 配合"action 固定到 commit SHA"：没有它，SHA 会永远停在旧版本
+    cooldown:
+      default-days: 7
