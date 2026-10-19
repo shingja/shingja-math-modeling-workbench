@@ -7,7 +7,7 @@
 
 **Linger · Tide · Gloom · Yearn — 徘徊、潮起、沉郁、心生惦念。**
 
-A four-stage agent workflow for mathematical-modeling competitions. It is not an answer generator and not a paper mill: it splits a problem into Linger, Tide, Gloom and Yearn, each stage with fixed deliverables, an independent review gate and a rework loop.
+Built with USTB students in mind, and useful to anyone who wants to learn mathematical modeling. A four-stage agent workflow — not an answer generator and not a paper mill: it splits a problem into Linger, Tide, Gloom and Yearn, each stage with fixed deliverables, an independent review gate and a rework loop.
 
 [![Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square)](VERSION)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-4B8BBE?style=flat-square)](SKILL.md)
@@ -70,6 +70,7 @@ Current version: [`0.1.0`](VERSION) (internal development line; the first public
 
 | Your situation | Start here |
 |---|---|
+| USTB students, or anyone who wants to learn mathematical modeling | [Core results](#core-results) → [Four codenames](#four-codenames) → [Quick start](#quick-start) |
 | First competition, no idea where to begin | [What problem it solves](#what-problem-it-solves) → [Workflow](#workflow) → [Quick start](#quick-start) |
 | You are the modeler | **Linger** · [Roles and deliverables](#roles-and-deliverables) · gate `M1` |
 | You are the coder | **Tide** · [Scope](#scope) · [Example figures](#example-figures) · `P1` `C1` `P2` |
@@ -319,6 +320,10 @@ Contact only through GitHub issues or the public channels above; for security is
 <a href="https://star-history.com/#shingja/shingja-math-modeling-workbench&Date">
   <img src="https://api.star-history.com/svg?repos=shingja/shingja-math-modeling-workbench&type=Date" alt="Star history" width="70%">
 </a>
+
+## Related project
+
+- **[shingja's Engineering Handbook](https://github.com/shingja/ustb-engineering-handbook-shingja)** — a competition and project handbook for USTB engineering students.
 
 ## Acknowledgements
 

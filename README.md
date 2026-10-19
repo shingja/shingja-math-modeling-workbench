@@ -7,7 +7,7 @@
 
 **Linger · Tide · Gloom · Yearn — 徘徊、潮起、沉郁、心生惦念。**
 
-面向数学建模竞赛的四段 Agent 工作流。不是答案生成器，也不是论文代写工具——把一道赛题拆成 Linger、Tide、Gloom、Yearn 四段，每段有固定交付物、独立质检和返工闭环。
+面向北京科技大学同学，也适合任何想学习数学建模的人。四段 Agent 工作流——不是答案生成器，也不是论文代写工具：把一道赛题拆成 Linger、Tide、Gloom、Yearn 四段，每段有固定交付物、独立质检和返工闭环。
 
 [![Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square)](VERSION)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-4B8BBE?style=flat-square)](SKILL.md)
@@ -68,6 +68,7 @@
 
 | 你的情况 | 先读 |
 |---|---|
+| 北科大同学，或任何想系统学数学建模的人 | [核心成果](#核心成果) → [四个代号](#四个代号) → [快速开始](#快速开始) |
 | 第一次参赛，不知道从哪下手 | [它解决什么问题](#它解决什么问题) → [工作流](#工作流) → [快速开始](#快速开始) |
 | 队里负责建模 | **Linger** · [角色与交付物](#角色与交付物) · `M1` 门禁 |
 | 队里负责编程 | **Tide** · [能力范围](#能力范围) · [示例图表](#示例图表) · `P1` `C1` `P2` |
@@ -319,6 +320,10 @@ PR 必须附测试证据与 CLA 声明行。不接受第三方受版权内容、
 <a href="https://star-history.com/#shingja/shingja-math-modeling-workbench&Date">
   <img src="https://api.star-history.com/svg?repos=shingja/shingja-math-modeling-workbench&type=Date" alt="Star 历史" width="70%">
 </a>
+
+## 相关项目
+
+- **[shingja 的工科生手册](https://github.com/shingja/ustb-engineering-handbook-shingja)** — 面向北科工科生的竞赛与项目手册；工具、模板、复盘与提交检查。
 
 ## 致谢
 
