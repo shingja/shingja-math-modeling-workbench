@@ -2,16 +2,16 @@
 <!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
-> v0.1.0 | 2026-10-08
+> v1.0.0 | 2026-10-19
 
-## v0.1.0 状态（对应重编前的内部 v4.4.0）
+## v1.0.0 状态（对应重编前的内部 v4.4.0）
 
 - v3.x 已知问题 #1(validation name mismatch)/#5(软门禁)/#6(口径)/#11(触发精度) 在 v4.0.0/v4.1.0 已处理或标注
 - 测试: test_skill_integrity.py(版本/引用/路由/编码) + test_subagent_protocol.py, 12/12 套件全绿
 - 实战经验库 12 文件入库(新增: 格式基线/AI模板/题目论文库/训练题库/资源差异), 三角色全量接入
 - 算法库: 228 .m + 161 范式卡(新增 EM/Apriori/SA/GA/MC/回归诊断)
 - M-Loop 模型迭代闭环: 指标目标卡 + tools/model_quality_score.py + C1-D6 三分支(实测通过)
-- 版本一致性: VERSION/frontmatter/plugin.json/shim/README/使用教程 六处同步 0.1.0, 由 test_skill_integrity.py 自动检查
+- 版本一致性: VERSION/frontmatter/plugin.json/shim/README/使用教程 六处同步 1.0.0, 由 test_skill_integrity.py 自动检查
 
 ## 当前已知问题
 

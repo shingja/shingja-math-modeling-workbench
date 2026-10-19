@@ -2,7 +2,7 @@
 <!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
-> **模块** `shingja-mathmodeling-search` · 版本 0.1.0 · 作者 [shingja](https://github.com/shingja)
+> **模块** `shingja-mathmodeling-search` · 版本 1.0.0 · 作者 [shingja](https://github.com/shingja)
 > **许可**：同仓库 [LICENSE](../LICENSE)（源码可见但非开源；禁商用、禁二次发布、禁止移除署名与版权标识）
 > **落地实现**：`tools/paper_search/`（OpenAlex + AnySearch 双引擎）、`references/paradigms/`（库内文献线索）
 

@@ -11,7 +11,7 @@ Built with USTB students in mind, and useful to anyone who wants to learn mathem
 
 > Copyright shingja. Free for non-commercial use; redistribution must credit the author and keep the license. Commercial use, false originality and implied endorsement are not permitted. See [NOTICE.md](NOTICE.md).
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](VERSION)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-4B8BBE?style=flat-square)](SKILL.md)
 [![CI](https://github.com/shingja/shingja-math-modeling-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/shingja/shingja-math-modeling-workbench/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-ff6b9d?style=flat-square)](LICENSE)
@@ -27,7 +27,7 @@ Built with USTB students in mind, and useful to anyone who wants to learn mathem
 
 </div>
 
-Current version: [`0.1.0`](VERSION) (internal development line; the first public release will be tagged `1.0.0`)
+Current version: [`1.0.0`](VERSION) (first public release)
 
 > [!NOTE]
 > This repository does **not** produce answers. It orchestrates the workflow and enforces
@@ -258,8 +258,8 @@ specific verification and evidence-collection methods are not disclosed.
 
 ## Roadmap
 
-- `1.0.0` — first public release (the internal `0.1.0` line frozen)
-- Next: hard-gate scripts for M1/P1/P2, full CI coverage, an examples library
+- `1.0.0` — first public release (2026-10-19)
+- Next from `1.1.0`: hard-gate scripts for M1/P1/P2, full CI coverage, an examples library
 - Known issues and version plan: [docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md)
 
 ## Contributing

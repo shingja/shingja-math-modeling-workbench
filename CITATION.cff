@@ -6,8 +6,8 @@ type: software
 authors:
   - alias: shingja
     name: shingja
-version: "0.1.0"
-date-released: "2026-10-08"
+version: "1.0.0"
+date-released: "2026-10-19"
 repository-code: "https://github.com/shingja/shingja-math-modeling-workbench"
 url: "https://github.com/shingja/shingja-math-modeling-workbench"
 license: LicenseRef-Dual-NonCommercial
@@ -39,5 +39,5 @@ preferred-citation:
       name: shingja
   title: "shingja's Math Modeling Workbench"
   year: 2026
-  version: "0.1.0"
+  version: "1.0.0"
   url: "https://github.com/shingja/shingja-math-modeling-workbench"

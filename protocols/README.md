@@ -2,7 +2,7 @@
 <!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
-> 版本 0.1.0 · 作者 [shingja](https://github.com/shingja) · 许可见 [LICENSE](../LICENSE)
+> 版本 1.0.0 · 作者 [shingja](https://github.com/shingja) · 许可见 [LICENSE](../LICENSE)
 
 跨阶段生效的流程协议。角色文档引用这里的协议；协议本身不产生产物，只定义"什么时候必须做什么、怎么做才算合规"。
 

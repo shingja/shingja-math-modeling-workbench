@@ -274,7 +274,7 @@ def figure_banner():
             fontsize=11.5, color="#C9D6E2")
     ax.text(0.66, 0.62,
             "12 problem categories  ·  164 paradigm cards  ·  MATLAB + Python  ·  "
-            "6 quality gates  ·  v0.1.0",
+            "6 quality gates  ·  v1.0.0",
             fontsize=9.2, color=ps.PALETTE["sky"])
     return fig, "banner"
 

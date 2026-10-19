@@ -11,7 +11,7 @@
 
 > 版权归 shingja 所有。非商业使用免费；转载必须署名并保留许可，禁止商用、冒充原创或暗示背书。详见 [NOTICE.md](NOTICE.md)。
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](VERSION)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-4B8BBE?style=flat-square)](SKILL.md)
 [![CI](https://github.com/shingja/shingja-math-modeling-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/shingja/shingja-math-modeling-workbench/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-ff6b9d?style=flat-square)](LICENSE)
@@ -27,7 +27,7 @@
 
 </div>
 
-当前版本：[`0.1.0`](VERSION)（内部开发期；首次公开发布时定版 `1.0.0`）
+当前版本：[`1.0.0`](VERSION)（首个公开版本）
 
 > [!NOTE]
 > 本仓库**不生成答案**。它做流程编排与质量把关——把一道赛题拆成建模、求解、写作、交付四段，
@@ -267,8 +267,8 @@ CUMCM、MCM/ICM、APMCM、MathorCup 等；格式与规则以当届官方文件�
 
 ## 路线图
 
-- `1.0.0`：首个公开发布（内部线 `0.1.0` 定版）
-- 后续：M1/P1/P2 硬门禁脚本化、CI 全覆盖、示例库（公开真题完整跑通记录）
+- `1.0.0`：首个公开版本（2026-10-19）
+- 后续：`1.1.0` 起补 M1/P1/P2 硬门禁脚本化、CI 全覆盖、示例库（公开真题完整跑通记录）
 - 已知问题与版本规划见 [docs/KNOWN_ISSUES.md](docs/KNOWN_ISSUES.md)
 
 ## 贡献

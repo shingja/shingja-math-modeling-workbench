@@ -1,6 +1,6 @@
 {
   "name": "math-modeling",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "数学建模竞赛全流程工具链 (CUMCM/MCM/ICM)。12大类164张范式卡(含CV目标检测0623-0625)、MATLAB-Python双语言、四段流程(Linger徘徊/建模、Tide潮起/求解、Gloom沉郁/写作、Yearn 心生惦念/终审交付)、6道门禁(M1/P1/C1/P2/W1/W2)+M-Loop模型迭代闭环、机理优化与CV检测双实战经验库(诊断/诚实披露/多轮审计/外部对标/提交包规范/CV检测管线)",
   "author": {
     "name": "shingja",

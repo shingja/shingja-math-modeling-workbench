@@ -2,7 +2,7 @@
 <!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
-> 版本 0.1.0 · 作者 [shingja](https://github.com/shingja) · 许可见 [LICENSE](../LICENSE)
+> 版本 1.0.0 · 作者 [shingja](https://github.com/shingja) · 许可见 [LICENSE](../LICENSE)
 
 本目录是 math-modeling Skill 的**自研能力模块**：把出图、润色、统计审查、论文预审、文献检索这五类"周边能力"写成仓库自带的协议文档，不再依赖任何外部技能。
 
