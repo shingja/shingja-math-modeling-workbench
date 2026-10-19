@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
+# 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
 """生成 README 示例图:banner / 工作流示意图 / 4 张出版级风格示例。
 
 示例图走本 Skill 自己的出版规范(Okabe-Ito 色板 + 布局与设计双门禁 + SVG/PNG 双格式),
@@ -298,7 +298,7 @@ def figure_social_preview():
             fontsize=7.6, color="#C9D6E2", va="top")
     ax.text(0.44, 0.72,
             "164 paradigm cards  ·  MATLAB + Python  ·  6 gates\n"
-            "publication-grade figures  ·  provenance-marked",
+            "publication-grade figures  ·  copyright-identifiers retained",
             fontsize=6.6, color=ps.PALETTE["sky"], va="top")
     ax.text(5.98, 0.42, "github.com/shingja", fontsize=6.2, color="#7E93A6",
             ha="right")
@@ -317,7 +317,7 @@ def stamp_png(path: Path) -> None:
             ("Author", "shingja"),
             ("Copyright", "© 2026 shingja — dual-licensed, see LICENSE"),
             ("Source", "https://github.com/shingja/shingja-math-modeling-workbench"),
-            ("Comment", "carries an invisible provenance marker; removing attribution violates the license"),
+            ("Comment", "retains copyright identifiers; removing attribution violates the license"),
         ):
             meta.add_text(key, value)
         image.save(path, pnginfo=meta)

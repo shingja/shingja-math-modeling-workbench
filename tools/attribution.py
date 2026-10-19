@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
+# 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
 """归属行:给每个源文件插入一条可见的作者/仓库/许可声明。
 
 可见归属行用于**日常可见的署名**（渲染/阅读时就能看到归属）。
@@ -25,8 +25,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 AUTHOR = "shingja"
 REPO_URL = "github.com/shingja/shingja-math-modeling-workbench"
-ZH = f"作者 {AUTHOR} · {REPO_URL} · 双许可见 LICENSE · 含隐形溯源标记"
-EN = f"Author {AUTHOR} · {REPO_URL} · dual-licensed, see LICENSE · carries an invisible provenance marker"
+ZH = f"作者 {AUTHOR} · {REPO_URL} · 双许可见 LICENSE · 保留版权标识"
+EN = f"Author {AUTHOR} · {REPO_URL} · dual-licensed, see LICENSE · retains copyright identifiers"
 
 EXTENSIONS = {".md", ".py", ".m", ".tex", ".svg", ".yml", ".yaml", ".cff"}
 SKIP_DIRS = {".git", ".backups", "__pycache__"}

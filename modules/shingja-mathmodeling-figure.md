@@ -1,9 +1,9 @@
 # shingja-mathmodeling-figure — 出图与成图门禁⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
-<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记 -->
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
 > **模块** `shingja-mathmodeling-figure` · 版本 0.1.0 · 作者 [shingja](https://github.com/shingja)
-> **许可**：同仓库 [LICENSE](../LICENSE)（源码可见非开源；禁商用、禁二次发布、禁止移除署名与溯源标记）
+> **许可**：同仓库 [LICENSE](../LICENSE)（源码可见非开源；禁商用、禁二次发布、禁止移除署名与版权标识）
 > **落地实现**：`references/roles/Tide/scripts/plot_style.py`、`figure_audit.py`、`matlab/figures/`
 
 ## 一、出图顺序（先想清楚，再动手）

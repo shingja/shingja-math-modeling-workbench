@@ -1,5 +1,5 @@
 <div align="center">
-<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记 -->
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 <img src="imgs/banner.svg" alt="shingja's Math Modeling Workbench · USTB — Linger / Tide / Gloom / Yearn" width="100%">
 
@@ -216,7 +216,7 @@ math-modeling/
 │   ├── paradigms/        # 范式卡 + 索引 + 关键词路由
 │   └── lessons/          # 实战复盘、避坑手册、四协议、模板
 ├── matlab/               # 228 个 .m（算法 + 模板 + 属性测试）
-├── tools/                # docx / xlsx / pdf / latex / 论文搜索 / 质量评分 / 溯源与出图
+├── tools/                # docx / xlsx / pdf / latex / 论文搜索 / 质量评分 / 完整性与出图
 ├── gates/                # C1 / W1 / W2 硬门禁脚本
 ├── imgs/                 # README 图（本仓库自产）
 ├── docs/                 # 教程、已知问题、仓库与发布手册、历史归档
@@ -261,7 +261,7 @@ CUMCM、MCM/ICM、APMCM、MathorCup 等；格式与规则以当届官方文件�
 不可以，除非取得书面授权。详见上方「许可」。
 
 **怎么防止被抄？**
-文件内嵌不可见溯源标记（见「溯源与完整性」），许可（PolyForm Noncommercial 1.0.0 + [NOTICE.md](NOTICE.md) 附加要求）明确：署名与标记不可移除。
+许可与 NOTICE 已明确：转载必须署名并保留许可，禁止商用、冒充原创或暗示背书。作者保留内容完整性与取证权利；具体校验与取证方法不公开。
 
 ## 路线图
 
@@ -280,14 +280,14 @@ PR 必须附测试证据与 CLA 声明行。不接受第三方受版权内容、
 
 - ✅ 个人学习、训练、参赛（含正式比赛）使用与修改
 - ✅ 教学、论文、博客、视频等非商业场合引用与演示
-- ✅ **允许转载 / 搬运**，条件：署名 + 来源链接 + 保留许可 + 不移除隐形溯源标记 + 不暗示背书
+- ✅ **允许转载 / 搬运**，条件：署名 + 来源链接 + 保留许可 + 不移除版权标识 + 不暗示背书
 - ❌ 禁止任何商业使用（付费课程、付费社群或资料、商业交付、以本内容为卖点的付费产品）
-- ❌ 禁止移除署名与溯源标记；禁止将内容声称为自己的原创
+- ❌ 禁止移除署名与版权标识；禁止将内容声称为自己的原创
 
 **商业使用**需事先取得书面授权，通过 GitHub [@shingja](https://github.com/shingja) 联系。
 
 完整条款：[LICENSE](LICENSE)（PolyForm Noncommercial 1.0.0 标准全文，逐字未改）
-+ [NOTICE.md](NOTICE.md)（Required Notice 行、署名与溯源要求、名称与背书限制、商用授权说明）。
++ [NOTICE.md](NOTICE.md)（Required Notice 行、署名与版权标识要求、名称与背书限制、商用授权说明）。
 本仓库**不内嵌第三方代码**：`tools/docx|pdf|xlsx` 由使用者运行
 `python tools/fetch_official_tools.py` 从 Anthropic 官方仓库自行获取，遵循其自带许可。
 

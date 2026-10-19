@@ -1,5 +1,5 @@
 ## [0.1.0] - 2026-10-08⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
-<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记 -->
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
 ### 版本线重编：内部开发期起点
@@ -13,13 +13,13 @@
 
 ### 开源准备（2026-10-09）
 
-- 📜 **许可换标准全文**（`LICENSE` = PolyForm Noncommercial 1.0.0 逐字全文）：非商业免费（需署名，允许署名转载）；附加要求（Required Notice 行/署名与溯源/名称与背书限制/商用授权）见 `NOTICE.md`；商业使用需书面授权（联系 @shingja）
+- 📜 **许可换标准全文**（`LICENSE` = PolyForm Noncommercial 1.0.0 逐字全文）：非商业免费（需署名，允许署名转载）；附加要求（Required Notice 行/署名与版权标识/名称与背书限制/商用授权）见 `NOTICE.md`；商业使用需书面授权（联系 @shingja）
 - 🤝 **贡献体系落地**：`CLA.md`（贡献者许可协议，含再许可权）、`CONTRIBUTING.md`（中英）、PR 模板与 Issue 模板（bug / feature / config）
 - 🔒 **合规**：`tools/docx|pdf|xlsx`（Anthropic 第三方代码）**移出仓库**，改由 `tools/fetch_official_tools.py` 从官方来源本地获取；新增 `tests/test_privacy.py`（隐私与合规回归：机器路径 / 私人邮箱 / 手机号 / 第三方目录 + 可选禁词表）
-- ⚙️ **CI**：`.github/workflows/ci.yml`（隐私扫描 + 完整性 + 溯源校验 + 全套测试）与 `requirements-dev.txt`
+- ⚙️ **CI**：`.github/workflows/ci.yml`（隐私扫描 + 完整性 + 完整性校验 + 全套测试）与 `requirements-dev.txt`
 - 🖼 **README**：徽章（stars / forks / 双许可）、FAQ、路线图、贡献章节、双许可说明、官方工具获取步骤、社交预览图（1280×640）
 - 📋 内部发布计划（不入库，`docs/internal/`）：开源发布计划 / 发版检查清单 / 推广方案
-- 🏷 **实战内容匿名化**：两份实战复盘重写 + 全库赛题指纹清理（去题名/赛事/平台/答案数值）；版权标识与内部溯源规则同步更新；公开仓库名定为 `math-modeling-workbench`（不含校名）
+- 🏷 **实战内容匿名化**：两份实战复盘重写 + 全库赛题指纹清理（去题名/赛事/平台/答案数值）；版权标识与内部版权规则同步更新；公开仓库名定为 `math-modeling-workbench`（不含校名）
 
 ## [4.4.0] - 2026-08-17
 

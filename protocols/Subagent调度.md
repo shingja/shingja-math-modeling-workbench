@@ -1,8 +1,8 @@
 # Subagent 调度与阶段门禁⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
-<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记 -->
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
-> 作者 [shingja](https://github.com/shingja) · 许可见 [LICENSE](../LICENSE) · 禁止移除署名与溯源标记
+> 作者 [shingja](https://github.com/shingja) · 许可见 [LICENSE](../LICENSE) · 禁止移除署名与版权标识
 
 Subagent 是阶段内临时协作者，不是第四个固定角色。主 Agent 负责统筹、写入权威产物和处理返工；质检 Subagent 必须未参与被审产物的编写，并默认只读。
 

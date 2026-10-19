@@ -1,9 +1,9 @@
 # shingja-mathmodeling-polishing — 论文润色与英文化⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
-<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记 -->
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
 > **模块** `shingja-mathmodeling-polishing` · 版本 0.1.0 · 作者 [shingja](https://github.com/shingja)
-> **许可**：同仓库 [LICENSE](../LICENSE)（PolyForm Noncommercial 1.0.0：非商业免费，需署名；商用需授权；禁止移除署名与溯源标记）
+> **许可**：同仓库 [LICENSE](../LICENSE)（PolyForm Noncommercial 1.0.0：非商业免费，需署名；商用需授权；禁止移除署名与版权标识）
 > **落地实现**：`references/roles/Gloom/references/写作规范.md`、`英文化工作流.md`、`论文格式基线_CUMCM规范与实测.md`
 
 ## 一、三种模式（先声明模式，再动手）

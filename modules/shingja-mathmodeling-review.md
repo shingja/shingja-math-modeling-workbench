@@ -1,9 +1,9 @@
 # shingja-mathmodeling-review — 论文预审与多轮审计⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
-<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记 -->
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
 > **模块** `shingja-mathmodeling-review` · 版本 0.1.0 · 作者 [shingja](https://github.com/shingja)
-> **许可**：同仓库 [LICENSE](../LICENSE)（源码可见但非开源；禁商用、禁二次发布、禁止移除署名与溯源标记）
+> **许可**：同仓库 [LICENSE](../LICENSE)（源码可见但非开源；禁商用、禁二次发布、禁止移除署名与版权标识）
 > **落地实现**：`tools/evaluate/`、`protocols/subagent_dispatch.md`、`references/lessons/多轮审计迭代协议.md`
 
 ## 一、六个评审维度（按权重排序，逐维给分 + 证据）

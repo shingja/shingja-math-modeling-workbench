@@ -1,5 +1,5 @@
 # 贡献指南 / Contributing⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
-<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记 -->
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
 > [中文](#中文) · [English](#english)
@@ -15,7 +15,7 @@
 | 文档 | 内容 |
 |---|---|
 | [`LICENSE`](LICENSE) | PolyForm Noncommercial 1.0.0 标准全文：非商业免费（需署名）；商业使用需授权 |
-| [`NOTICE.md`](NOTICE.md) | Required Notice 行、署名与溯源要求、名称与背书限制、商用授权说明 |
+| [`NOTICE.md`](NOTICE.md) | Required Notice 行、署名与版权标识要求、名称与背书限制、商用授权说明 |
 | [`CLA.md`](CLA.md) | 贡献者许可协议 —— **PR 描述必须包含签署声明行** |
 | [`SKILL.md`](SKILL.md) | 项目主指令（先读，理解流程与门禁） |
 | [`protocols/README.md`](protocols/README.md) | 协议层索引 |
@@ -104,7 +104,7 @@ implementations (with tests, not duplicating existing cards).
 Third-party copyrighted material (including code copied from other skills) ·
 any personal, team, school or competition-internal information · solutions or
 discussions of the current competition problems · binary artifacts, weights or
-datasets · changes to the license, attribution or provenance markers ·
+datasets · changes to the license, attribution or copyright identifiers ·
 large structural reshuffles (open an issue first).
 
 ### Workflow

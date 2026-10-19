@@ -1,5 +1,5 @@
 # 安全策略 / Security Policy⁠​‌‌​‌‌​‌​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌​​​​​‌​‌‌​‌​‌‌​‌‌​‌​‌‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌‌​‌‌‌​‌‌​‌‌‌‌​‌‌‌​​‌​​‌‌​‌​‌‌​‌‌​​​‌​​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​​‌‌​‌‌​‌​​​​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌⁠
-<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记 -->
+<!-- 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 保留版权标识 -->
 
 
 ## 支持的版本
@@ -34,7 +34,7 @@
 - **不内嵌第三方代码**：`tools/docx|pdf|xlsx` 由使用者用 `tools/fetch_official_tools.py` 自行获取，仓库本身不含外部代码。
 - **CI 最小权限**：workflow 级 `permissions: contents: read`，action 按 commit SHA 固定，checkout 不保留凭据。
 - **提交与标签签名**：全部提交与 tag 使用 SSH 签名，GitHub 显示 Verified。
-- **版权与防篡改**：源文件带可见归属行与版权标识；发布包附逐文件 SHA-256 清单，可用 `tools/manifest.py --verify` 校验。具体溯源与取证方法不在公开文档披露。
+- **版权与防篡改**：源文件带可见归属行与版权标识；发布包附逐文件 SHA-256 清单，可用 `tools/manifest.py --verify` 校验。具体校验与取证方法不在公开文档披露。
 - **隐私回归测试**：`tests/test_privacy.py` 阻止个人路径、私人邮箱、手机号与第三方目录进入仓库。
 - **无 secrets 依赖**：核心流程不需要任何 API key；`ANYSEARCH_API_KEY` 等仅为可选增强，且只从环境变量读取。
 
@@ -49,5 +49,5 @@ Agent Skill 会**读取并执行本仓库中的脚本**。使用前请：
 
 ## 已知的、我们不承诺保护的情况
 
-- fork 是 GitHub 服务条款允许的行为；我们只能通过许可条款与溯源标记追溯，不能阻止 fork。
+- fork 是 GitHub 服务条款允许的行为；我们只能通过许可条款、版权标识与仓库时间戳追溯，不能阻止 fork。
 - 截图、OCR、重排文字后的复制可能丢失部分版权标识；此时以可见归属行、许可条款与仓库时间戳为准。
