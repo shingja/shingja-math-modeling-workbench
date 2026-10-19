@@ -1,0 +1,35 @@
+% style_2026.sty — 2026 CUMCM 论文样式
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{style_2026}[2026/07/29 v1.0 CUMCM 2026 Style]
+
+% === Page geometry ===
+\RequirePackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+
+% === No headers, page number centered at footer ===
+\RequirePackage{fancyhdr}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+
+% === Three-line table ===
+\RequirePackage{booktabs}
+
+% === Graphics ===
+\RequirePackage{graphicx}
+
+% === Color-blind friendly palette ===
+\definecolor{cbBlue}{HTML}{0F4D92}
+\definecolor{cbRed}{HTML}{B64342}
+\definecolor{cbGreen}{HTML}{3B7A57}
+\definecolor{cbOrange}{HTML}{D9782D}
+\definecolor{cbPurple}{HTML}{9A4D8E}
+\definecolor{cbGray}{HTML}{767676}
+
+% === Required packages ===
+\RequirePackage{amsmath, amssymb, amsthm}
+\RequirePackage{hyperref}
+\RequirePackage{listings}
+\RequirePackage{xcolor}
+\RequirePackage{caption}
+\RequirePackage{float}

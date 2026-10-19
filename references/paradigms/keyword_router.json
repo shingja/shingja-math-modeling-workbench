@@ -1,0 +1,2782 @@
+{
+  "PARADIGM-0101-LP": {
+    "keywords": [
+      "lp",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0102-IP": {
+    "keywords": [
+      "ip",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0103-NLP": {
+    "keywords": [
+      "nlp",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0104-DP": {
+    "keywords": [
+      "dp",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0105-GA": {
+    "keywords": [
+      "ga",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0106-PSO": {
+    "keywords": [
+      "pso",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0107-ACO": {
+    "keywords": [
+      "aco",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0108-DE": {
+    "keywords": [
+      "de",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0109-SA": {
+    "keywords": [
+      "sa",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0110-GWO": {
+    "keywords": [
+      "gwo",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0111-IA": {
+    "keywords": [
+      "ia",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "low"
+  },
+  "PARADIGM-0112-WOA": {
+    "keywords": [
+      "woa",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0113-SSA": {
+    "keywords": [
+      "ssa",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0114-TS": {
+    "keywords": [
+      "ts",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0115-GOAL-PROG": {
+    "keywords": [
+      "goal",
+      "prog",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0116-MULTI-START": {
+    "keywords": [
+      "multi",
+      "start",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0117-SURROGATE-OPT": {
+    "keywords": [
+      "surrogate",
+      "opt",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0118-BILEVEL": {
+    "keywords": [
+      "bilevel",
+      "优化"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0201-GM11": {
+    "keywords": [
+      "gm11",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0202-ARIMA": {
+    "keywords": [
+      "arima",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0203-EXP-SMOOTH": {
+    "keywords": [
+      "exp",
+      "smooth",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0204-LSTM-FORECAST": {
+    "keywords": [
+      "lstm",
+      "forecast",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0205-SVR": {
+    "keywords": [
+      "svr",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0206-XGBOOST-LGBM": {
+    "keywords": [
+      "xgboost",
+      "lgbm",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0207-PROPHET": {
+    "keywords": [
+      "prophet",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0208-STATE-SPACE": {
+    "keywords": [
+      "state",
+      "space",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0209-GARCH": {
+    "keywords": [
+      "garch",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0210-VAR": {
+    "keywords": [
+      "var",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0211-INTERPOLATION": {
+    "keywords": [
+      "interpolation",
+      "预测"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0301-AHP": {
+    "keywords": [
+      "ahp",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0302-TOPSIS": {
+    "keywords": [
+      "topsis",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0303-EWM": {
+    "keywords": [
+      "ewm",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0304-FUZZY-EVAL": {
+    "keywords": [
+      "fuzzy",
+      "eval",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0305-GRA": {
+    "keywords": [
+      "gra",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0306-RSR": {
+    "keywords": [
+      "rsr",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0307-CV-WEIGHT": {
+    "keywords": [
+      "cv",
+      "weight",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0308-DEA": {
+    "keywords": [
+      "dea",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0309-SUBJECTIVE-WEIGHT": {
+    "keywords": [
+      "subjective",
+      "weight",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0310-INTERVAL-EVAL": {
+    "keywords": [
+      "interval",
+      "eval",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0311-IMPROVED-TOPSIS": {
+    "keywords": [
+      "improved",
+      "topsis",
+      "评价"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0401-DIJKSTRA": {
+    "keywords": [
+      "dijkstra",
+      "图论"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0402-BELLMAN-FORD": {
+    "keywords": [
+      "bellman",
+      "ford",
+      "图论"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0403-FLOYD": {
+    "keywords": [
+      "floyd",
+      "图论"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0404-MST": {
+    "keywords": [
+      "mst",
+      "图论"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0405-MAXFLOW": {
+    "keywords": [
+      "maxflow",
+      "图论"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0406-CPM": {
+    "keywords": [
+      "cpm",
+      "图论"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0407-EULER-HAMILTON": {
+    "keywords": [
+      "euler",
+      "hamilton",
+      "图论"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0408-HUNGARIAN": {
+    "keywords": [
+      "hungarian",
+      "图论"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0501-PREPROCESS": {
+    "keywords": [
+      "preprocess",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0502-OUTLIER": {
+    "keywords": [
+      "outlier",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0503-DISTRIBUTIONS": {
+    "keywords": [
+      "distributions",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0504-PCA": {
+    "keywords": [
+      "pca",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0506-CLUSTER-KMEANS": {
+    "keywords": [
+      "cluster",
+      "kmeans",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0507-CCA": {
+    "keywords": [
+      "cca",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0508-NMF": {
+    "keywords": [
+      "nmf",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0509-TTEST": {
+    "keywords": [
+      "ttest",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0510-PLS": {
+    "keywords": [
+      "pls",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0511-FACTOR-ANALYSIS": {
+    "keywords": [
+      "factor",
+      "analysis",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0512-CORRESPONDENCE-ANALYSIS": {
+    "keywords": [
+      "correspondence",
+      "analysis",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0513-MANOVA": {
+    "keywords": [
+      "manova",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0522-MK-TREND": {
+    "keywords": [
+      "mk",
+      "trend",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0523-HURST-RS": {
+    "keywords": [
+      "hurst",
+      "rs",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0524-SURVIVAL-COX": {
+    "keywords": [
+      "survival",
+      "cox",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0525-DID": {
+    "keywords": [
+      "did",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0526-MORAN-KRIGING": {
+    "keywords": [
+      "moran",
+      "kriging",
+      "统计"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0601-QUEUING-ADV": {
+    "keywords": [
+      "queuing",
+      "adv",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0601-RF": {
+    "keywords": [
+      "rf",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0602-ADABOOST": {
+    "keywords": [
+      "adaboost",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0603-ISOLATION-FOREST": {
+    "keywords": [
+      "isolation",
+      "forest",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0604-DT": {
+    "keywords": [
+      "dt",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0605-SVM": {
+    "keywords": [
+      "svm",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0606-PERCEPTRON": {
+    "keywords": [
+      "perceptron",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0607-KNN": {
+    "keywords": [
+      "knn",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0608-NAIVE-BAYES": {
+    "keywords": [
+      "naive",
+      "bayes",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0609-LOGISTIC-REG": {
+    "keywords": [
+      "logistic",
+      "reg",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0610-SVD": {
+    "keywords": [
+      "svd",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0611-LSA": {
+    "keywords": [
+      "lsa",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0612-PLSA": {
+    "keywords": [
+      "plsa",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0613-LDA": {
+    "keywords": [
+      "lda",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0614-MCMC": {
+    "keywords": [
+      "mcmc",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0615-PAGERANK": {
+    "keywords": [
+      "pagerank",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0616-CATBOOST": {
+    "keywords": [
+      "catboost",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0617-FP-GROWTH": {
+    "keywords": [
+      "fp",
+      "growth",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0618-CNN": {
+    "keywords": [
+      "cnn",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0619-GBDT": {
+    "keywords": [
+      "gbdt",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0620-STACKING": {
+    "keywords": [
+      "stacking",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0621-EM": {
+    "keywords": [
+      "em",
+      "gmm",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0622-APRIORI": {
+    "keywords": [
+      "apriori",
+      "association",
+      "ML"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0701-GAME-NASH": {
+    "keywords": [
+      "game",
+      "nash",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0701-MCMC": {
+    "keywords": [
+      "mcmc",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0702-INVENTORY-EOQ": {
+    "keywords": [
+      "inventory",
+      "eoq",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0702-MARKOV-CHAIN": {
+    "keywords": [
+      "markov",
+      "chain",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0703-QUEUING-BASIC": {
+    "keywords": [
+      "queuing",
+      "basic",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0704-BOOKSTORE": {
+    "keywords": [
+      "bookstore",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0705-BOOTSTRAP": {
+    "keywords": [
+      "bootstrap",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0706-CELLULAR-AUTO": {
+    "keywords": [
+      "cellular",
+      "auto",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0707-RELIABILITY": {
+    "keywords": [
+      "reliability",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0708-SYSTEM-DYNAMICS": {
+    "keywords": [
+      "system",
+      "dynamics",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0709-SEIRS-STOCHASTIC": {
+    "keywords": [
+      "seirs",
+      "stochastic",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0710-LOTKA-VOLTERRA": {
+    "keywords": [
+      "lotka",
+      "volterra",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0711-NSGA2-TOPSIS": {
+    "keywords": [
+      "nsga2",
+      "topsis",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0712-GWO-SVR": {
+    "keywords": [
+      "gwo",
+      "svr",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0713-GA-LSTM": {
+    "keywords": [
+      "ga",
+      "lstm",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0714-PROPENSITY-MATCH": {
+    "keywords": [
+      "propensity",
+      "match",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0715-GM11-ARIMA-COMBO": {
+    "keywords": [
+      "gm11",
+      "arima",
+      "combo",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0716-EWM-TOPSIS-COMBO": {
+    "keywords": [
+      "ewm",
+      "topsis",
+      "combo",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0717-UNCERTAINTY-QUANTIFY": {
+    "keywords": [
+      "uncertainty",
+      "quantify",
+      "综合"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0801-MALTHUS": {
+    "keywords": [
+      "malthus",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0802-LOGISTIC": {
+    "keywords": [
+      "logistic",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0803-LESLIE": {
+    "keywords": [
+      "leslie",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0804-SEIR": {
+    "keywords": [
+      "seir",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0805-SEIRS-VACCINE": {
+    "keywords": [
+      "seirs",
+      "vaccine",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0806-LOTKA-VOLTERRA-ODE": {
+    "keywords": [
+      "lotka",
+      "volterra",
+      "ode",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0807-DIFFEQ-ITERATOR": {
+    "keywords": [
+      "diffeq",
+      "iterator",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0808-VARIATIONAL-SHOOTING": {
+    "keywords": [
+      "variational",
+      "shooting",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0809-PDE-FDM-SOLVER": {
+    "keywords": [
+      "pde",
+      "fdm",
+      "solver",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0810-SIR-EXTENDED": {
+    "keywords": [
+      "sir",
+      "extended",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0811-REACTION-DIFFUSION": {
+    "keywords": [
+      "reaction",
+      "diffusion",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0812-HEAT-2D": {
+    "keywords": [
+      "heat",
+      "2d",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0813-ADVECTION-DIFFUSION": {
+    "keywords": [
+      "advection",
+      "diffusion",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0814-CHEMICAL-KINETICS": {
+    "keywords": [
+      "chemical",
+      "kinetics",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0815-NEURODYNAMICS": {
+    "keywords": [
+      "neurodynamics",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0816-GROWTH-MODELS": {
+    "keywords": [
+      "growth",
+      "models",
+      "机理"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0901-DISCRIMINANT": {
+    "keywords": [
+      "discriminant",
+      "经典"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0902-CONJOINT-ANALYSIS": {
+    "keywords": [
+      "conjoint",
+      "analysis",
+      "经典"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0903-TEXT-MINING-PIPELINE": {
+    "keywords": [
+      "text",
+      "mining",
+      "pipeline",
+      "经典"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0904-MISSING-DATA-IMPUTATION": {
+    "keywords": [
+      "missing",
+      "data",
+      "imputation",
+      "经典"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0905-FEATURE-SELECTION": {
+    "keywords": [
+      "feature",
+      "selection",
+      "经典"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-0906-SENSITIVITY-ANALYSIS": {
+    "keywords": [
+      "sensitivity",
+      "analysis",
+      "经典"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0907-MODEL-SELECTION": {
+    "keywords": [
+      "model",
+      "selection",
+      "经典"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1001-GPR": {
+    "keywords": [
+      "gpr",
+      "代理模型"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1002-EGO": {
+    "keywords": [
+      "ego",
+      "代理模型"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1003-RSM": {
+    "keywords": [
+      "rsm",
+      "代理模型"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1004-RBF-SURROGATE": {
+    "keywords": [
+      "rbf",
+      "surrogate",
+      "代理模型"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1005-PINN": {
+    "keywords": [
+      "pinn",
+      "代理模型"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1006-POD-DEIM": {
+    "keywords": [
+      "pod",
+      "deim",
+      "代理模型"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1101-CVAR": {
+    "keywords": [
+      "cvar",
+      "鲁棒"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1102-ROBUST-COUNTERPART": {
+    "keywords": [
+      "robust",
+      "counterpart",
+      "鲁棒"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1103-CHANCE-CONSTRAINT": {
+    "keywords": [
+      "chance",
+      "constraint",
+      "鲁棒"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1104-STOCHASTIC-PROG": {
+    "keywords": [
+      "stochastic",
+      "prog",
+      "鲁棒"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1105-WASSERSTEIN-DRO": {
+    "keywords": [
+      "wasserstein",
+      "dro",
+      "鲁棒"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1201-NSGA2": {
+    "keywords": [
+      "nsga2",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1202-NSGA3": {
+    "keywords": [
+      "nsga3",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1203-MOEAD": {
+    "keywords": [
+      "moead",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1204-VIKOR": {
+    "keywords": [
+      "vikor",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1205-CRITIC": {
+    "keywords": [
+      "critic",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1206-BWM": {
+    "keywords": [
+      "bwm",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1207-PROMETHEE": {
+    "keywords": [
+      "promethee",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1208-DEMATEL-ANP": {
+    "keywords": [
+      "dematel",
+      "anp",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1209-SHAPLEY": {
+    "keywords": [
+      "shapley",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-1210-DEA": {
+    "keywords": [
+      "dea",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1211-EPSILON-CONSTRAINT": {
+    "keywords": [
+      "epsilon",
+      "constraint",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "high"
+  },
+  "PARADIGM-1212-MABAC": {
+    "keywords": [
+      "mabac",
+      "MCDM"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.2,
+      "E": 0.2
+    },
+    "combines_with": [],
+    "replaces_with": [],
+    "prerequisite": [],
+    "confidence": "medium"
+  },
+  "PARADIGM-0623-CV-DET-BASELINE": {
+    "keywords": [
+      "yolo",
+      "detection",
+      "目标检测",
+      "图像识别",
+      "计算机视觉",
+      "缺陷检测",
+      "损伤检测",
+      "边界框",
+      "map",
+      "ultralytics",
+      "图像分类",
+      "目标定位"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.8,
+      "E": 0.2
+    },
+    "combines_with": [
+      "PARADIGM-0624-CV-ENSEMBLE",
+      "PARADIGM-0625-CV-FSF-FIM",
+      "PARADIGM-0618-CNN"
+    ],
+    "replaces_with": [],
+    "prerequisite": [
+      "PARADIGM-0618-CNN"
+    ],
+    "confidence": "high"
+  },
+  "PARADIGM-0624-CV-ENSEMBLE": {
+    "keywords": [
+      "wbf",
+      "加权框融合",
+      "模型集成",
+      "tta",
+      "测试时增强",
+      "多尺度推理",
+      "置信度阈值",
+      "nms",
+      "后处理",
+      "严重度",
+      "severity",
+      "top-k",
+      "提交文件",
+      "黑箱评估"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.8,
+      "E": 0.2
+    },
+    "combines_with": [
+      "PARADIGM-0623-CV-DET-BASELINE",
+      "PARADIGM-0625-CV-FSF-FIM"
+    ],
+    "replaces_with": [
+      "PARADIGM-0601-VOTING-CLASSIFIER"
+    ],
+    "prerequisite": [
+      "PARADIGM-0623-CV-DET-BASELINE"
+    ],
+    "confidence": "high"
+  },
+  "PARADIGM-0625-CV-FSF-FIM": {
+    "keywords": [
+      "频域",
+      "频率",
+      "傅里叶",
+      "fft",
+      "rfft",
+      "边缘检测",
+      "sobel",
+      "物理先验",
+      "小目标",
+      "特征增强",
+      "注意力",
+      "yolo颈部",
+      "结构先验",
+      "缺陷边界",
+      "fsf",
+      "fim"
+    ],
+    "weight_by_question_type": {
+      "A": 0.2,
+      "B": 0.2,
+      "C": 0.2,
+      "D": 0.8,
+      "E": 0.2
+    },
+    "combines_with": [
+      "PARADIGM-0623-CV-DET-BASELINE",
+      "PARADIGM-0624-CV-ENSEMBLE"
+    ],
+    "replaces_with": [],
+    "prerequisite": [
+      "PARADIGM-0618-CNN"
+    ],
+    "confidence": "medium"
+  }
+}

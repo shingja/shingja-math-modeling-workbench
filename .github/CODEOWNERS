@@ -1,0 +1,10 @@
+# 所有改动由仓库作者复核（单人维护）
+*                       @shingja
+
+# 高风险区域明确归属
+/.github/               @shingja
+/gates/                 @shingja
+/tools/                 @shingja
+/tests/                 @shingja
+LICENSE                 @shingja
+CLA.md                  @shingja

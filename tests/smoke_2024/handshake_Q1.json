@@ -1,0 +1,16 @@
+{
+  "model_id": "Q1-LP-OPTIMIZATION",
+  "math_formulation": "max sum(profit_ij * x_ij) s.t. land_constraints, rotation_constraints, x_ij >= 0",
+  "variable_map": [
+    {"name": "x_ij", "meaning": "area allocated to crop i in plot j", "unit": "亩", "bounds": [0, 1000]},
+    {"name": "profit_ij", "meaning": "expected profit per mu for crop i in plot j", "unit": "元/亩", "bounds": [-1000, 5000]},
+    {"name": "yield_ij", "meaning": "expected yield per mu for crop i in plot j", "unit": "kg/亩", "bounds": [100, 2000]}
+  ],
+  "pseudo_code": "Step1: Load data and compute profit matrix. Step2: Formulate LP with land/rotation constraints. Step3: Solve via linprog. Step4: Export optimal allocation and expected profit.",
+  "parameter_bounds": {"total_land": [100, 10000], "min_rotation_gap": [1, 5], "price_elasticity": [0.5, 2.0]},
+  "validation_cases": [
+    {"name": "Single_crop_test", "input": {"land": 100, "crop": "wheat", "profit_per_mu": 500}, "expected": 50000, "tol": 1.0},
+    {"name": "Two_crop_test", "input": {"land": 200, "crop1_profit": 500, "crop2_profit": 300, "max_crop1": 150}, "expected": 90000, "tol": 1.0}
+  ],
+  "invariants": ["sum(x_ij) <= total_land", "x_ij >= 0", "profit = sum(profit_ij * x_ij)"]
+}

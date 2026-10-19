@@ -1,0 +1,120 @@
+% 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记
+% !TEX program = xelatex
+% 2026 CUMCM 数学建模论文 LaTeX 模板
+% Aligned with: 全国大学生数学建模竞赛论文格式规范(2026版)
+
+\documentclass[12pt,a4paper]{ctexart}
+
+% === Packages ===
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}       % 三线表
+\usepackage{hyperref}
+\usepackage{listings}       % 代码附录
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{caption}
+\usepackage{float}
+
+% === Code listing style ===
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+    commentstyle=\color{gray},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+}
+
+% === Page style: plain = page number centered at footer, no header ===
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+% === Macros ===
+% Three-line table
+\newcommand{\threetab}[1]{%
+    \begin{table}[H]
+    \centering
+    \caption{#1}
+    \begin{tabular}
+}
+\newcommand{\endthreetab}{%
+    \end{tabular}
+    \end{table}
+}
+
+% Publication-quality figure
+\newcommand{\pubfig}[3]{%
+    \begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth, keepaspectratio]{#1}
+    \caption{#2}
+    \label{#3}
+    \end{figure}
+}
+
+% --- DOCUMENT START ---
+\begin{document}
+
+% ================ 第 1 页: 承诺书 ================
+\thispagestyle{empty}
+\input{pages/commitment_2026}
+\newpage
+
+% ================ 第 2 页: 编号专用页 ================
+\thispagestyle{empty}
+\input{pages/number_sheet_2026}
+\newpage
+
+% ================ 第 3 页: 摘要专用页 ================
+\setcounter{page}{1}  % 页码从 1 开始
+
+\begin{center}
+    {\LARGE \textbf{论文标题}}
+\end{center}
+
+\vspace{1cm}
+
+\begin{abstract}
+\noindent
+\textbf{摘要：}本文针对[问题背景]，建立了[模型名称]模型。\\
+针对问题一，采用[方法]，求解得到[具体数值结果]；\\
+针对问题二，采用[方法]，求解得到[具体数值结果]；\\
+\ldots
+
+结果表明，[模型]能够[结论]。通过灵敏度分析[验证方式]验证了模型的[稳定性/准确性]。
+\end{abstract}
+
+\vspace{0.5cm}
+\noindent\textbf{关键词：}关键词1；关键词2；关键词3；关键词4
+\newpage
+
+% ================ 正文 ================
+\input{sections/01_problem_restatement}
+\input{sections/02_model_assumptions}
+\input{sections/03_symbols}
+\input{sections/04_problem1}
+\input{sections/05_problem2}
+\input{sections/06_sensitivity}
+\input{sections/07_model_evaluation}
+
+% ================ 参考文献 ================
+\begin{thebibliography}{99}
+
+\bibitem{ref1} 作者. 题名[J]. 期刊, 年份, 卷(期): 页码. DOI:xxx
+
+\end{thebibliography}
+
+% ================ 附录: 全部源代码 ================
+\newpage
+\appendix
+\section{程序源代码}
+
+\subsection{问题一求解程序}
+\lstinputlisting[language=Matlab]{../../matlab/templates/skeleton.m}
+
+\end{document}

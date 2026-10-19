@@ -1,0 +1,12 @@
+# 作者 shingja · github.com/shingja/shingja-math-modeling-workbench · 双许可见 LICENSE · 含隐形溯源标记
+blank_issues_enabled: false
+contact_links:
+  - name: 使用问题 / 安装问题
+    url: https://github.com/shingja/shingja-math-modeling-workbench/discussions
+    about: 安装、用法、报错排查请走 Discussions；issue 只用于 bug 与功能建议
+  - name: 安全与隐私问题
+    url: https://github.com/shingja/shingja-math-modeling-workbench/security/advisories/new
+    about: 隐私泄露、版权标识被移除等安全问题，请走私密报告
+  - name: 商业授权
+    url: https://github.com/shingja/shingja-math-modeling-workbench/discussions
+    about: 商业使用需授权，条款见 LICENSE 第二节

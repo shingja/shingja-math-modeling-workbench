@@ -1,0 +1,1744 @@
+{
+  "meta": {
+    "generated_utc": "2026-07-28",
+    "total_algorithms": 151,
+    "matlab_static_validated": 37,
+    "matlab_present_but_fails": 109,
+    "python_only_or_conceptual": 3,
+    "effective_coverage_rate": "25.0%",
+    "raw_coverage_rate": "24.5%",
+    "total_m_files": 108,
+    "m_files_passing_validation": 51
+  },
+  "algorithms": [
+    {
+      "algorithm_id": "PARADIGM-0101-LP",
+      "category": "0101",
+      "matlab_files": [
+        "matlab\\graph\\critical_path.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0101-LP",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0102-IP",
+      "category": "0102",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0102-IP",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0103-NLP",
+      "category": "0103",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0103-NLP",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0104-DP",
+      "category": "0104",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0104-DP",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0105-GA",
+      "category": "0105",
+      "matlab_files": [
+        "matlab\\gaussian_log_likelihood.m",
+        "matlab\\graph\\hungarian.m",
+        "matlab\\mcdm\\nsga2.m",
+        "matlab\\surrogate\\rbf_surrogate.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0105-GA",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0106-PSO",
+      "category": "0106",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0106-PSO",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0107-ACO",
+      "category": "0107",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0107-ACO",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0108-DE",
+      "category": "0108",
+      "matlab_files": [
+        "matlab\\svd_decompose.m",
+        "matlab\\decomp\\nmf_decompose.m",
+        "matlab\\decomp\\pca_decomp.m",
+        "matlab\\eval\\dea_analyze.m",
+        "matlab\\mcdm\\dematel_anp.m",
+        "matlab\\mechanism\\leslie_model.m",
+        "matlab\\mechanism\\logistic_model.m",
+        "matlab\\mechanism\\malthus_model.m",
+        "matlab\\mechanism\\ode_solver.m",
+        "matlab\\mechanism\\pde_crank_nicolson.m",
+        "matlab\\mechanism\\pde_ftcs.m",
+        "matlab\\mechanism\\sis_model.m",
+        "matlab\\surrogate\\pod_deim.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0108-DE",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0109-SA",
+      "category": "0109",
+      "matlab_files": [
+        "matlab\\gibbs_sampler.m",
+        "matlab\\lsa_query.m",
+        "matlab\\lsa_search.m",
+        "matlab\\lsa_similarity.m",
+        "matlab\\lsa_train.m",
+        "matlab\\plsa_doc_topics.m",
+        "matlab\\plsa_top_words.m",
+        "matlab\\plsa_train.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0109-SA",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0110-GWO",
+      "category": "0110",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0110-GWO",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0111-IA",
+      "category": "0111",
+      "matlab_files": [
+        "matlab\\gaussian_log_likelihood.m",
+        "matlab\\comprehensive\\reliability_fta.m",
+        "matlab\\comprehensive\\reliability_weibull.m",
+        "matlab\\comprehensive\\variational_shooting.m",
+        "matlab\\eval\\coefficient_variation.m",
+        "matlab\\graph\\hungarian.m",
+        "matlab\\optim\\differential_evolution.m",
+        "matlab\\predict\\exponential_smoothing.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0111-IA",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0112-WOA",
+      "category": "0112",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0112-WOA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0113-SSA",
+      "category": "0113",
+      "matlab_files": [
+        "matlab\\gibbs_sampler.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0113-SSA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0114-TS",
+      "category": "0114",
+      "matlab_files": [
+        "matlab\\optim\\ant_colony_tsp.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0114-TS",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0115-GOAL-PROG",
+      "category": "0115",
+      "matlab_files": [
+        "matlab\\optim\\dynamic_programming.m",
+        "matlab\\optim\\intlinprog_wrapper.m",
+        "matlab\\optim\\linprog_wrapper.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0115-GOAL-PROG",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0116-MULTI-START",
+      "category": "0116",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0116-MULTI-START",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0117-SURROGATE-OPT",
+      "category": "0117",
+      "matlab_files": [
+        "matlab\\optim\\grey_wolf_optimizer.m",
+        "matlab\\optim\\whale_optimization.m",
+        "matlab\\robust\\cvar_opt.m",
+        "matlab\\surrogate\\ego_bayesopt.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0117-SURROGATE-OPT",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0118-BILEVEL",
+      "category": "0118",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0118-BILEVEL",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0201-GM11",
+      "category": "0201",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0201-GM11",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0202-ARIMA",
+      "category": "0202",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0202-ARIMA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0203-EXP-SMOOTH",
+      "category": "0203",
+      "matlab_files": [
+        "matlab\\predict\\exponential_smoothing.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0203-EXP-SMOOTH",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0204-LSTM-FORECAST",
+      "category": "0204",
+      "matlab_files": [
+        "matlab\\predict\\lstm_forecast.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0204-LSTM-FORECAST",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0205-SVR",
+      "category": "0205",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0205-SVR",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0206-XGBOOST-LGBM",
+      "category": "0206",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0206-XGBOOST-LGBM",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0207-PROPHET",
+      "category": "0207",
+      "matlab_files": [],
+      "matlab": "python_only",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0207-PROPHET",
+      "test": "planned",
+      "status": "python_only"
+    },
+    {
+      "algorithm_id": "PARADIGM-0208-STATE-SPACE",
+      "category": "0208",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0208-STATE-SPACE",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0209-GARCH",
+      "category": "0209",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0209-GARCH",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0210-VAR",
+      "category": "0210",
+      "matlab_files": [
+        "matlab\\comprehensive\\variational_shooting.m",
+        "matlab\\eval\\coefficient_variation.m",
+        "matlab\\robust\\cvar_opt.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0210-VAR",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0211-INTERPOLATION",
+      "category": "0211",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0211-INTERPOLATION",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0301-AHP",
+      "category": "0301",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0301-AHP",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0302-TOPSIS",
+      "category": "0302",
+      "matlab_files": [
+        "matlab\\evaluation\\topsis_improved.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0302-TOPSIS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0303-EWM",
+      "category": "0303",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0303-EWM",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0304-FUZZY-EVAL",
+      "category": "0304",
+      "matlab_files": [
+        "matlab\\eval\\interval_evaluation.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0304-FUZZY-EVAL",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0305-GRA",
+      "category": "0305",
+      "matlab_files": [
+        "matlab\\interp\\interp_lagrange.m",
+        "matlab\\optim\\dynamic_programming.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0305-GRA",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0306-RSR",
+      "category": "0306",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0306-RSR",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0307-CV-WEIGHT",
+      "category": "0307",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0307-CV-WEIGHT",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0308-DEA",
+      "category": "0308",
+      "matlab_files": [
+        "matlab\\eval\\dea_analyze.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0308-DEA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0309-SUBJECTIVE-WEIGHT",
+      "category": "0309",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0309-SUBJECTIVE-WEIGHT",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0310-INTERVAL-EVAL",
+      "category": "0310",
+      "matlab_files": [
+        "matlab\\eval\\interval_evaluation.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0310-INTERVAL-EVAL",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0311-IMPROVED-TOPSIS",
+      "category": "0311",
+      "matlab_files": [
+        "matlab\\evaluation\\topsis_improved.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0311-IMPROVED-TOPSIS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0401-DIJKSTRA",
+      "category": "0401",
+      "matlab_files": [
+        "matlab\\graph\\dijkstra.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0401-DIJKSTRA",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0402-BELLMAN-FORD",
+      "category": "0402",
+      "matlab_files": [
+        "matlab\\graph\\bellman_ford.m",
+        "matlab\\graph\\maxflow_ford_fulkerson.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0402-BELLMAN-FORD",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0403-FLOYD",
+      "category": "0403",
+      "matlab_files": [
+        "matlab\\graph\\floyd_warshall.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0403-FLOYD",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0404-MST",
+      "category": "0404",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0404-MST",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0405-MAXFLOW",
+      "category": "0405",
+      "matlab_files": [
+        "matlab\\graph\\maxflow_ford_fulkerson.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0405-MAXFLOW",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0406-CPM",
+      "category": "0406",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0406-CPM",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0407-EULER-HAMILTON",
+      "category": "0407",
+      "matlab_files": [
+        "matlab\\graph\\euler_hamilton.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0407-EULER-HAMILTON",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0408-HUNGARIAN",
+      "category": "0408",
+      "matlab_files": [
+        "matlab\\graph\\hungarian.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0408-HUNGARIAN",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0501-PREPROCESS",
+      "category": "0501",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0501-PREPROCESS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0502-OUTLIER",
+      "category": "0502",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0502-OUTLIER",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0503-DISTRIBUTIONS",
+      "category": "0503",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0503-DISTRIBUTIONS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0504-PCA",
+      "category": "0504",
+      "matlab_files": [
+        "matlab\\decomp\\pca_decomp.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0504-PCA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0506-CLUSTER-KMEANS",
+      "category": "0506",
+      "matlab_files": [
+        "matlab\\cluster\\kmeans_cluster.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0506-CLUSTER-KMEANS",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0507-CCA",
+      "category": "0507",
+      "matlab_files": [
+        "matlab\\stats\\cca_analyze.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0507-CCA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0508-NMF",
+      "category": "0508",
+      "matlab_files": [
+        "matlab\\decomp\\nmf_decompose.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0508-NMF",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0509-TTEST",
+      "category": "0509",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0509-TTEST",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0510-PLS",
+      "category": "0510",
+      "matlab_files": [
+        "matlab\\plsa_doc_topics.m",
+        "matlab\\plsa_top_words.m",
+        "matlab\\plsa_train.m",
+        "matlab\\stats\\pls_regress.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0510-PLS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0511-FACTOR-ANALYSIS",
+      "category": "0511",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0511-FACTOR-ANALYSIS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0512-CORRESPONDENCE-ANALYSIS",
+      "category": "0512",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0512-CORRESPONDENCE-ANALYSIS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0513-MANOVA",
+      "category": "0513",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0513-MANOVA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0522-MK-TREND",
+      "category": "0522",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0522-MK-TREND",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0523-HURST-RS",
+      "category": "0523",
+      "matlab_files": [
+        "matlab\\graph\\floyd_warshall.m",
+        "matlab\\graph\\maxflow_ford_fulkerson.m",
+        "matlab\\robust\\wasserstein_dro.m",
+        "matlab\\surrogate\\rsm_poly.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0523-HURST-RS",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0524-SURVIVAL-COX",
+      "category": "0524",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0524-SURVIVAL-COX",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0525-DID",
+      "category": "0525",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0525-DID",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0526-MORAN-KRIGING",
+      "category": "0526",
+      "matlab_files": [
+        "matlab\\surrogate\\kriging_gpr.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0526-MORAN-KRIGING",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0601-QUEUING-ADV",
+      "category": "0601",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0601-QUEUING-ADV",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0601-RF",
+      "category": "0601",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0601-RF",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0602-ADABOOST",
+      "category": "0602",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0602-ADABOOST",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0603-ISOLATION-FOREST",
+      "category": "0603",
+      "matlab_files": [
+        "matlab\\ml\\isolation_forest.m",
+        "matlab\\ml\\random_forest_predict.m",
+        "matlab\\ml\\random_forest_train.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0603-ISOLATION-FOREST",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0604-DT",
+      "category": "0604",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0604-DT",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0605-SVM",
+      "category": "0605",
+      "matlab_files": [
+        "matlab\\ml\\svm_predict.m",
+        "matlab\\ml\\svm_train.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0605-SVM",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0606-PERCEPTRON",
+      "category": "0606",
+      "matlab_files": [
+        "matlab\\perceptron.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0606-PERCEPTRON",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0607-KNN",
+      "category": "0607",
+      "matlab_files": [
+        "matlab\\knn_predict.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0607-KNN",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0608-NAIVE-BAYES",
+      "category": "0608",
+      "matlab_files": [
+        "matlab\\naive_bayes_predict.m",
+        "matlab\\naive_bayes_train.m",
+        "matlab\\surrogate\\ego_bayesopt.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0608-NAIVE-BAYES",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0609-LOGISTIC-REG",
+      "category": "0609",
+      "matlab_files": [
+        "matlab\\logistic_regression_predict.m",
+        "matlab\\logistic_regression_train.m",
+        "matlab\\stats\\pls_regress.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0609-LOGISTIC-REG",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0610-SVD",
+      "category": "0610",
+      "matlab_files": [
+        "matlab\\svd_decompose.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0610-SVD",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0611-LSA",
+      "category": "0611",
+      "matlab_files": [
+        "matlab\\lsa_query.m",
+        "matlab\\lsa_search.m",
+        "matlab\\lsa_similarity.m",
+        "matlab\\lsa_train.m",
+        "matlab\\plsa_doc_topics.m",
+        "matlab\\plsa_top_words.m",
+        "matlab\\plsa_train.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0611-LSA",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0612-PLSA",
+      "category": "0612",
+      "matlab_files": [
+        "matlab\\plsa_doc_topics.m",
+        "matlab\\plsa_top_words.m",
+        "matlab\\plsa_train.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0612-PLSA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0613-LDA",
+      "category": "0613",
+      "matlab_files": [
+        "matlab\\lda_doc_topics.m",
+        "matlab\\lda_top_words.m",
+        "matlab\\lda_train.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0613-LDA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0614-MCMC",
+      "category": "0614",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0614-MCMC",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0615-PAGERANK",
+      "category": "0615",
+      "matlab_files": [
+        "matlab\\pagerank.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0615-PAGERANK",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0616-CATBOOST",
+      "category": "0616",
+      "matlab_files": [
+        "matlab\\ml\\catboost_predict.m",
+        "matlab\\ml\\catboost_train.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0616-CATBOOST",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0617-FP-GROWTH",
+      "category": "0617",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0617-FP-GROWTH",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0618-CNN",
+      "category": "0618",
+      "matlab_files": [],
+      "matlab": "python_only",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0618-CNN",
+      "test": "planned",
+      "status": "python_only"
+    },
+    {
+      "algorithm_id": "PARADIGM-0619-GBDT",
+      "category": "0619",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0619-GBDT",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0620-STACKING",
+      "category": "0620",
+      "matlab_files": [
+        "matlab\\ml\\stacking_cv.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0620-STACKING",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0701-GAME-NASH",
+      "category": "0701",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0701-GAME-NASH",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0701-MCMC",
+      "category": "0701",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0701-MCMC",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0702-INVENTORY-EOQ",
+      "category": "0702",
+      "matlab_files": [
+        "matlab\\comprehensive\\inventory_eoq.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0702-INVENTORY-EOQ",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0702-MARKOV-CHAIN",
+      "category": "0702",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0702-MARKOV-CHAIN",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0703-QUEUING-BASIC",
+      "category": "0703",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0703-QUEUING-BASIC",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0704-BOOKSTORE",
+      "category": "0704",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0704-BOOKSTORE",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0705-BOOTSTRAP",
+      "category": "0705",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0705-BOOTSTRAP",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0706-CELLULAR-AUTO",
+      "category": "0706",
+      "matlab_files": [
+        "matlab\\simulation\\cellular_automata.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0706-CELLULAR-AUTO",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0707-RELIABILITY",
+      "category": "0707",
+      "matlab_files": [
+        "matlab\\comprehensive\\reliability_fta.m",
+        "matlab\\comprehensive\\reliability_weibull.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0707-RELIABILITY",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0708-SYSTEM-DYNAMICS",
+      "category": "0708",
+      "matlab_files": [
+        "matlab\\comprehensive\\system_dynamics.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0708-SYSTEM-DYNAMICS",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0709-SEIRS-STOCHASTIC",
+      "category": "0709",
+      "matlab_files": [
+        "matlab\\robust\\two_stage_stochastic.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0709-SEIRS-STOCHASTIC",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0710-LOTKA-VOLTERRA",
+      "category": "0710",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0710-LOTKA-VOLTERRA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0711-NSGA2-TOPSIS",
+      "category": "0711",
+      "matlab_files": [
+        "matlab\\evaluation\\topsis_improved.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0711-NSGA2-TOPSIS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0712-GWO-SVR",
+      "category": "0712",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0712-GWO-SVR",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0713-GA-LSTM",
+      "category": "0713",
+      "matlab_files": [
+        "matlab\\predict\\lstm_forecast.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0713-GA-LSTM",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0714-PROPENSITY-MATCH",
+      "category": "0714",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0714-PROPENSITY-MATCH",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0715-GM11-ARIMA-COMBO",
+      "category": "0715",
+      "matlab_files": [],
+      "matlab": "conceptual",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0715-GM11-ARIMA-COMBO",
+      "test": "planned",
+      "status": "conceptual"
+    },
+    {
+      "algorithm_id": "PARADIGM-0716-EWM-TOPSIS-COMBO",
+      "category": "0716",
+      "matlab_files": [],
+      "matlab": "conceptual",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0716-EWM-TOPSIS-COMBO",
+      "test": "planned",
+      "status": "conceptual"
+    },
+    {
+      "algorithm_id": "PARADIGM-0717-UNCERTAINTY-QUANTIFY",
+      "category": "0717",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0717-UNCERTAINTY-QUANTIFY",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0801-MALTHUS",
+      "category": "0801",
+      "matlab_files": [
+        "matlab\\mechanism\\malthus_model.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0801-MALTHUS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0802-LOGISTIC",
+      "category": "0802",
+      "matlab_files": [
+        "matlab\\logistic_regression_predict.m",
+        "matlab\\logistic_regression_train.m",
+        "matlab\\mechanism\\logistic_model.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0802-LOGISTIC",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0803-LESLIE",
+      "category": "0803",
+      "matlab_files": [
+        "matlab\\mechanism\\leslie_model.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0803-LESLIE",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0804-SEIR",
+      "category": "0804",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0804-SEIR",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0805-SEIRS-VACCINE",
+      "category": "0805",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0805-SEIRS-VACCINE",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0806-LOTKA-VOLTERRA-ODE",
+      "category": "0806",
+      "matlab_files": [
+        "matlab\\mechanism\\leslie_model.m",
+        "matlab\\mechanism\\logistic_model.m",
+        "matlab\\mechanism\\malthus_model.m",
+        "matlab\\mechanism\\ode_solver.m",
+        "matlab\\mechanism\\sis_model.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0806-LOTKA-VOLTERRA-ODE",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0807-DIFFEQ-ITERATOR",
+      "category": "0807",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0807-DIFFEQ-ITERATOR",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0808-VARIATIONAL-SHOOTING",
+      "category": "0808",
+      "matlab_files": [
+        "matlab\\comprehensive\\variational_shooting.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0808-VARIATIONAL-SHOOTING",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-0809-PDE-FDM-SOLVER",
+      "category": "0809",
+      "matlab_files": [
+        "matlab\\mechanism\\ode_solver.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0809-PDE-FDM-SOLVER",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0810-SIR-EXTENDED",
+      "category": "0810",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0810-SIR-EXTENDED",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0811-REACTION-DIFFUSION",
+      "category": "0811",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0811-REACTION-DIFFUSION",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0812-HEAT-2D",
+      "category": "0812",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0812-HEAT-2D",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0813-ADVECTION-DIFFUSION",
+      "category": "0813",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0813-ADVECTION-DIFFUSION",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0814-CHEMICAL-KINETICS",
+      "category": "0814",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0814-CHEMICAL-KINETICS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0815-NEURODYNAMICS",
+      "category": "0815",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0815-NEURODYNAMICS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0816-GROWTH-MODELS",
+      "category": "0816",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0816-GROWTH-MODELS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0901-DISCRIMINANT",
+      "category": "0901",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0901-DISCRIMINANT",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0902-CONJOINT-ANALYSIS",
+      "category": "0902",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0902-CONJOINT-ANALYSIS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0903-TEXT-MINING-PIPELINE",
+      "category": "0903",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0903-TEXT-MINING-PIPELINE",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0904-MISSING-DATA-IMPUTATION",
+      "category": "0904",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0904-MISSING-DATA-IMPUTATION",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0905-FEATURE-SELECTION",
+      "category": "0905",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0905-FEATURE-SELECTION",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0906-SENSITIVITY-ANALYSIS",
+      "category": "0906",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0906-SENSITIVITY-ANALYSIS",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-0907-MODEL-SELECTION",
+      "category": "0907",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-0907-MODEL-SELECTION",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1001-GPR",
+      "category": "1001",
+      "matlab_files": [
+        "matlab\\surrogate\\kriging_gpr.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1001-GPR",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1002-EGO",
+      "category": "1002",
+      "matlab_files": [
+        "matlab\\surrogate\\ego_bayesopt.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1002-EGO",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1003-RSM",
+      "category": "1003",
+      "matlab_files": [
+        "matlab\\surrogate\\rsm_poly.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1003-RSM",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1004-RBF-SURROGATE",
+      "category": "1004",
+      "matlab_files": [
+        "matlab\\surrogate\\rbf_surrogate.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1004-RBF-SURROGATE",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1005-PINN",
+      "category": "1005",
+      "matlab_files": [],
+      "matlab": "python_only",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1005-PINN",
+      "test": "planned",
+      "status": "python_only"
+    },
+    {
+      "algorithm_id": "PARADIGM-1006-POD-DEIM",
+      "category": "1006",
+      "matlab_files": [
+        "matlab\\surrogate\\pod_deim.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1006-POD-DEIM",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1101-CVAR",
+      "category": "1101",
+      "matlab_files": [
+        "matlab\\robust\\cvar_opt.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1101-CVAR",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1102-ROBUST-COUNTERPART",
+      "category": "1102",
+      "matlab_files": [
+        "matlab\\robust\\robust_counterpart.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1102-ROBUST-COUNTERPART",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1103-CHANCE-CONSTRAINT",
+      "category": "1103",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1103-CHANCE-CONSTRAINT",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1104-STOCHASTIC-PROG",
+      "category": "1104",
+      "matlab_files": [
+        "matlab\\optim\\dynamic_programming.m",
+        "matlab\\optim\\intlinprog_wrapper.m",
+        "matlab\\optim\\linprog_wrapper.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1104-STOCHASTIC-PROG",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1105-WASSERSTEIN-DRO",
+      "category": "1105",
+      "matlab_files": [
+        "matlab\\robust\\wasserstein_dro.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1105-WASSERSTEIN-DRO",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1201-NSGA2",
+      "category": "1201",
+      "matlab_files": [
+        "matlab\\mcdm\\nsga2.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1201-NSGA2",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1202-NSGA3",
+      "category": "1202",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1202-NSGA3",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1203-MOEAD",
+      "category": "1203",
+      "matlab_files": [
+        "matlab\\mcdm\\moead.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1203-MOEAD",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1204-VIKOR",
+      "category": "1204",
+      "matlab_files": [
+        "matlab\\mcdm\\vikor.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1204-VIKOR",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1205-CRITIC",
+      "category": "1205",
+      "matlab_files": [
+        "matlab\\graph\\critical_path.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1205-CRITIC",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1206-BWM",
+      "category": "1206",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1206-BWM",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1207-PROMETHEE",
+      "category": "1207",
+      "matlab_files": [
+        "matlab\\mcdm\\promethee.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1207-PROMETHEE",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1208-DEMATEL-ANP",
+      "category": "1208",
+      "matlab_files": [
+        "matlab\\mcdm\\dematel_anp.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1208-DEMATEL-ANP",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1209-SHAPLEY",
+      "category": "1209",
+      "matlab_files": [
+        "matlab\\mcdm\\shapley_value.m"
+      ],
+      "matlab": "static_validated",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1209-SHAPLEY",
+      "test": "planned",
+      "status": "implemented"
+    },
+    {
+      "algorithm_id": "PARADIGM-1210-DEA",
+      "category": "1210",
+      "matlab_files": [
+        "matlab\\eval\\dea_analyze.m"
+      ],
+      "matlab": "present_but_fails_validation",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1210-DEA",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1211-EPSILON-CONSTRAINT",
+      "category": "1211",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1211-EPSILON-CONSTRAINT",
+      "test": "planned",
+      "status": "planned"
+    },
+    {
+      "algorithm_id": "PARADIGM-1212-MABAC",
+      "category": "1212",
+      "matlab_files": [],
+      "matlab": "missing",
+      "python": "planned",
+      "paradigm_card": "PARADIGM-1212-MABAC",
+      "test": "planned",
+      "status": "planned"
+    }
+  ]
+}

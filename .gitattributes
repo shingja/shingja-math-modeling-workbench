@@ -1,0 +1,28 @@
+# 统一换行：仓库内一律 LF，避免 Windows/macOS 协作时的整文件 diff
+* text=auto eol=lf
+
+# 文本文件的类型与差异策略
+*.md        text eol=lf
+*.py        text eol=lf
+*.m         text eol=lf
+*.tex       text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.json      text eol=lf
+*.svg       text eol=lf
+provenance_manifest.json  -diff linguist-generated
+
+# 二进制文件
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.pdf       binary
+*.docx      binary
+*.xlsx      binary
+*.mat       binary
+*.pt        binary
+
+# 语言统计：把这些标记为文档，避免仓库被识别成"纯 Markdown"
+docs/**     linguist-documentation
+imgs/**     linguist-documentation
